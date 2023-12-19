@@ -80,6 +80,16 @@ Choose and upload a .pdf file. (You can use the IMF World Economy Outlook docume
 
 Next AI Studio will look for the embeddings model deployment. If not removed Azure AI Studio comes with default embedding model deployments. If this has been removed it can look for and locate an available embedding model and finally if it cannot it can create a new deployment model itself. In this example AI Studio will use the deployment used in the previous step.
 ![Alt text](../../media/vector-index04.png)
+
+Next we will create an index on Azure AI Search for document embeddings. \
+(Do not use hyphen or underscore for the index name.)
+![Alt text](../../media/vector-index05.png)
+
+Finally choose "Create" so that index creation starts...
+![Alt text](../../media/vector-index06.png)
+
+You can follow index creation pipeline under Azure AI ML Studio jobs.
+![Alt text](../../media/vector-index07.png)
 **7. Deploy the flow to Azure as an LLM app**
 
 monitor usage...

@@ -10,7 +10,7 @@ Rather than visiting individual portals seperate for...
 - Azure Content Safety for enabling developers to moderate their own services \
 ...you can access all these capabilities via Azure AI Studio
 
-![Alt text](../../media/ai-studio-home.png))
+![Alt text](../../media/ai-studio-home.png)
 
 This is all good. However it takes sometime to find ones feet as to how previously familiar capabilities are accessed inside the new "Studio". 
 
