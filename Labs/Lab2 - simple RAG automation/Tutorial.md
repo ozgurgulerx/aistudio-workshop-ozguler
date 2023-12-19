@@ -61,11 +61,25 @@ At the you will have two deployments. One for embeddings and got-35-turbo 16k fo
 ![Alt text](../../media/aoaimodel-deploy05.png)
 
 **5. Create connections for embeddings model and the LLM of choice** \
+Go back to Azure AI Studio Manage/Connections/New Connection, choose AzureOpenAI service from the services menu and add the endpoint and API key details that were recorded in the previous step...
 
+![Alt text](../../media/aoai-conn11.png)
 
+add the API endpoint and key details for gpt-35-turbo 16k model deployment.
+![Alt text](../../media/aoai-conn10.png)
 
-**6. Create a vector index with Azure PromptFlow**
+You won't need to create a connection for the embedding model ada-embedding-02 deployment. 
 
+**6. Create a vector index in Azure AI Studio**
+Go to Azure AI Studio/Build/Indexes and Click on "New Index".
+![Alt text](../../media/vector-index01.png)
+![Alt text](../../media/vector-index02.png)
+
+Choose and upload a .pdf file. (You can use the IMF World Economy Outlook document under datasets)
+![Alt text](../../media/vector-index03.png)
+
+Next AI Studio will look for the embeddings model deployment. If not removed Azure AI Studio comes with default embedding model deployments. If this has been removed it can look for and locate an available embedding model and finally if it cannot it can create a new deployment model itself. In this example AI Studio will use the deployment used in the previous step.
+![Alt text](../../media/vector-index04.png)
 **7. Deploy the flow to Azure as an LLM app**
 
 monitor usage...
