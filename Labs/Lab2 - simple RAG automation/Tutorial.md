@@ -38,9 +38,34 @@ Click on "New Connection".
 Next add the endpoint URL, the API key copied earlier and a connection name. 
 (API version for AI Search connection needs to be 2023-07-01-preview or later for vector store support.)
 ![Alt text](../../media/aisearchconn04.png)
-**4. Create connections for embeddings model and the LLM** \
+
+
+**4. Create AzureOpenAI deployments for the embeddings model and the openai gpt model of choice** \
+AzureAI Studio by default will recognize deployed models under Azure OpenAI. 
+If you don't see these models under Azure AI Studio create them following the below.
 To create embeddings for document chunks our flow will need to use an embeddings model. We need to create a connection for the embeddings model and the LLM to drive the RAG flow.
 
-**5. Create a vector index with Azure PromptFlow**
+![Alt text](../../media/aoaimodel-deploy01.png)
 
-**6. Deploy the flow to Azure as an LLM app**
+Next choose the text-embedding-ada-002 model to create the embeddings...
+![Alt text](../../media/aoaimodel-deploy02.png)
+
+Choose model version 2 and set 120k TPM quota for the deployment so that we do not exhaust the whole 240k TPM regional quota. Then click "Deploy".
+![Alt text](../../media/aoaimodel-deploy03.png)
+
+Copy the deployments API key...
+![Alt text](../../media/aoaimodel-deploy04.png)
+
+Repeat the same steps to deploy gpt-35-turbo-16k model for chat completions.
+At the you will have two deployments. One for embeddings and got-35-turbo 16k for chat completions.
+![Alt text](../../media/aoaimodel-deploy05.png)
+
+**5. Create connections for embeddings model and the LLM of choice** \
+
+
+
+**6. Create a vector index with Azure PromptFlow**
+
+**7. Deploy the flow to Azure as an LLM app**
+
+monitor usage...
