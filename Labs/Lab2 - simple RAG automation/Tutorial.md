@@ -41,26 +41,28 @@ Next add the endpoint URL, the API key copied earlier and a connection name.
 
 
 **4. Create AzureOpenAI deployments for the embeddings model and the openai gpt model of choice** \
-AzureAI Studio by default will recognize deployed models under Azure OpenAI. 
-If you don't see these models under Azure AI Studio create them following the below.
-To create embeddings for document chunks our flow will need to use an embeddings model. We need to create a connection for the embeddings model and the LLM to drive the RAG flow.
+AzureAI Studio by default will recognize deployed models under Azure OpenAI service. 
+If you don't see these models under Azure AI Studio create these model deployments from scratch.
 
-![Alt text](../../media/aoaimodel-deploy01.png)
+First create an AzureOpenAI service from under Azure portal AzureOpenAI service.
+![Alt text](../../media/openai-deployments00.png)
 
-Next choose the text-embedding-ada-002 model to create the embeddings...
-![Alt text](../../media/aoaimodel-deploy02.png)
+Once the service is completed, go into the service and note down the API endpoint and API key for the created AzureOpenAI service.
+![Alt text](../../media/openai-deployments03.png)
 
-Choose model version 2 and set 120k TPM quota for the deployment so that we do not exhaust the whole 240k TPM regional quota. Then click "Deploy".
-![Alt text](../../media/aoaimodel-deploy03.png)
+Go back to AzureOpenAI service overview and click on "Go to AzureOpenAI Studio" to deploy the required models under the created service.
+![Alt text](../../media/openai-deployments04.png)
 
-Copy the deployments API key...
-![Alt text](../../media/aoaimodel-deploy04.png)
+On AzureOpenAI Studio create two deployments. 
+1. embeddings-ada-02 embedding model
+2. gpt-35-turbo 16k as the LLM of choice
+Do not assign all of the regional quotas (120k TPM - half of the regional quota) will suffice.
 
-Repeat the same steps to deploy gpt-35-turbo-16k model for chat completions.
-At the you will have two deployments. One for embeddings and got-35-turbo 16k for chat completions.
-![Alt text](../../media/aoaimodel-deploy05.png)
+In the end you will see the models on AzureOpenAI portal under deployments.
+![Alt text](../../media/openai-deployments01.png)
 
-**5. Create connections for embeddings model and the LLM of choice** \
+**5. Create a connection for the AzureOpenAI servicee** \
+(If the AzureAI Studio Project was created after an AzureOpenAI service was created the connections for AOAI service are automatically created with the name "Default_AzureOpenAI" connection. Make sure the required models are deployed under this service under AOAI. If the default AOAI connection does not work try creating a new AOAI connection )
 Go back to Azure AI Studio Manage/Connections/New Connection, choose AzureOpenAI service from the services menu and add the endpoint and API key details that were recorded in the previous step...
 
 ![Alt text](../../media/aoai-conn11.png)
