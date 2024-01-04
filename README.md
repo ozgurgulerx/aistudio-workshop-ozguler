@@ -2,7 +2,8 @@
 
 AI Studio workshop is a set of labs that can be used to get upto speed with AI Studio.
 Content can be used in a one-to-many delivery session in a workshop format.
-Content will be updated so that each item can be 
+
+Each lab goes through implementation of a use-case in detailed steps can be done seperately.
 
 
 - [**Lab1 - Introduction to AI Studio - Getting started**](./Labs/Lab1%20-%20Introduction%20to%20AIStudio/GettingStarted.md)
