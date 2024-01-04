@@ -1,12 +1,21 @@
 # Standard RAG 
 
+In this lab we will create a vanilla RAG pipeline. \
+We will first create a vector index and then use automated flow generation function to create the chatbot. \
+Finally we will deploy the chatbot onto Azure as a webapp. 
+
+
 
 
 **1. Create a new AI Studio project**
 ![Alt text](../../media/new_project.png)
 
-Think of a project as an extended flow, a GenAI App that brings together LLM's, vector indexes, content security filters, PromptFlow flows... 
+A project is an organizational container that has tools for AI customization and orchestration, lets you organize your work, save state across different tools like prompt flow, and collaborate with others. For example, you can share uploaded files and connections to data sources.
+
+Think of a project as a container that brings together all necessary components required to build a GenAI App e.g. LLM's, vision/speech models, Azure Cognitive / AI services (e.g. speech / language / vision services), datasets, vector indexes, vector db's, content security filters, PromptFlow flows (e.g. evaluation flows)... 
 ![Alt text](../../media/new-aistudio-project.png)
+
+For more please see [MSLearn documentation](https://learn.microsoft.com/en-us/azure/ai-studio/concepts/ai-resources#organize-work-in-projects-for-customization).
 
 **2. Create an Azure AI Search Service**
 Go to Azure portal and search "Azure AI Search" service (Former Azure Cognitive Search).
