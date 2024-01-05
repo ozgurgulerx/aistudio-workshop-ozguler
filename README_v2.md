@@ -27,6 +27,5 @@ Each lab goes through implementation of a use-case in detailed steps can be done
 
 - [Lab5 - deploy AOAI app to AzureFunctions](./)
 
-Hope you enjoyed the content.
-Please reach out for any feedback. 
+
     
