@@ -13,7 +13,6 @@ Each lab goes through implementation of a use-case in detailed steps can be done
     - [Lab2.1 - RAG based chatbot with an existing Vector Index Lookup](./Labs/Lab2%20-%20Build%20&%20Deploy%20RAG%20based%20Chatbots%20with%20PromptFlow%20&%20AzureAIStudio/2.1%20PromptFlow%20-%20RAG%20based%20Chatbot%20with%20Vector%20Index%20creation%20Tutorial.md)   
     - Lab2.2 - Creating a RAG based Chatbot using PromptFlow Q&A template
     - [Lab2.3 - Deploy & monitor your chat app](./Labs/Lab2%20-%20Build%20&%20Deploy%20RAG%20based%20Chatbots%20with%20PromptFlow%20&%20AzureAIStudio/2.3%20PromptFlow-deploy.md)
-
     - [Lab2.6 - Add a Content Safety Filter to your Chatbot](./Labs/Lab2%20-%20vanilla%20RAG%20automation/)
     - [Lab2.7 - Evaluate your RAG based Chatbot ](./Labs/Lab2%20-%20vanilla%20RAG%20automation/)
     - [Lab2.8 - Deploy & monitor your chatbot](./Labs/Lab2%20-%20vanilla%20RAG%20automation/Tutorial.md)
