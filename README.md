@@ -1,4 +1,4 @@
-# AZURE AI STUDIO WORKSHOP
+# AZURE AI STUDIO WORKSHOP - Ozgur Guler
 
 AI Studio workshop is a set of labs that covers LLM App development capabilities...
 Content can be used in a one-to-many delivery session in a workshop format.
