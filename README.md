@@ -1,6 +1,6 @@
-# AZURE ML PROMPTFLOW AI & STUDIO WORKSHOP
+# AZURE AI STUDIO WORKSHOP
 
-AI Studio workshop is a set of labs that can be used to get upto speed with AI Studio.
+AI Studio workshop is a set of labs that covers LLM App development capabilities...
 Content can be used in a one-to-many delivery session in a workshop format.
 
 Each lab goes through implementation of a use-case in detailed steps can be done seperately.
