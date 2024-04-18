@@ -1,4 +1,4 @@
-# AZURE ML PROMPTFLOW AI & STUDIO WORKSHOP
+# AZURE AI & STUDIO WORKSHOP - OzgurGuler
 
 AI Studio workshop is a set of labs that can be used to get upto speed with AI Studio.
 Content can be used in a one-to-many delivery session in a workshop format.
