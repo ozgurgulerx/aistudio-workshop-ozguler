@@ -1,14 +1,22 @@
 # Lab1 - Introduction to AI Studio 
 
-Azure AI Studio brings together capabilities from across multiple Azure AI services.
-Rather than visiting individual portals seperate for...
-- Azure Cognitive Services for reaching out SOTA models in Vision, Language etc.
-- AzureML to access AzureML platform capabilities to train, fine-tine and evaluate models
-- Azure OpenAI for accessing latest models, testing prompts in playground, managing quotas for each model
-- AzureML PromptFlow for facilitating LLM App development
-- AzureML Model Catalog for deploying OpenWeight models or latest models from MS Research (e.g. Phi2) 
-- Azure Content Safety for enabling developers to moderate their own services \
-...you can access all these capabilities via Azure AI Studio
+Welcome to the Azure AI Search...Our goal is to get you upto speed with Azure AI Search capabilities...
+
+![Alt text](../../media/AIStudioGeneral.png)
+![Alt text](../../media/2404%20Azure%20AI%20Portfolio.png)
+
+Azure AI Studio is an AI app development portal which brings together...
+- LLM's (large language models) and LMM's (large multi-modal models) 
+- Your data through vector capabilities of Azure AI Search
+- 3rd party API's (tools) via function-calling 
+- Azure Cognitive Services - Azure Vision, Speech, Translation, Document Intelligence etc.
+- Responsible AI practices through "Azure Content Safety"
+- LLMOPS through GitHub integration 
+- GenAI App Evaluation capabilities 
+- GenAI App Observability features (inference metrics)
+
+These services can be integrated to develop capable applications through [AI Studio Portal](https://ai.azure.com), AI Studio SDK and CLI...VSCode plugin helps devlopers leverage AI Studio capabilities in a code-first manner.
+
 
 ![Alt text](../../media/ai-studio-home.png)
 
