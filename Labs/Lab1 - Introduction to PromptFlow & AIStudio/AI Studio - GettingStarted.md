@@ -3,9 +3,11 @@
 Welcome to the Azure AI Search...Our goal is to get you upto speed with Azure AI Search capabilities...
 
 ![Alt text](../../media/AIStudioGeneral.png)
+AI Studio is a Unified AI platform that aims to offer an increasing and evolving set of AI App capabilities 
+
+Azure AI Studio achieves this task by bringing together the following services and capabilities.
 ![Alt text](../../media/2404%20Azure%20AI%20Portfolio.png)
 
-Azure AI Studio is an AI app development portal which brings together...
 - LLM's (large language models) and LMM's (large multi-modal models) 
 - Your data through vector capabilities of Azure AI Search
 - 3rd party API's (tools) via function-calling 
