@@ -7,7 +7,8 @@ Each lab goes through implementation of a use-case in detailed steps can be done
 
 [Azure AI Studio documentation](https://learn.microsoft.com/en-us/azure/ai-studio/what-is-ai-studio?tabs=home)
 
-- [**Lab1 - Introduction to AI Studio - Getting started**](./Labs/Lab1%20-%20Introduction%20to%20AIStudio/GettingStarted.md)
+- [**Lab1 - Introduction to AI Studio - Getting started**](./Labs/Lab1%20-%20Introduction%20to%20PromptFlow%20&%20AIStudio/AI%20Studio%20-%20GettingStarted.md)
+
 
 - <span style="color:yellow"> **Lab2. - PromptFlow -  Creat a RAG based chatbot app</span>** 
 
