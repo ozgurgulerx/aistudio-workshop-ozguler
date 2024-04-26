@@ -5,12 +5,13 @@ Content can be used in a one-to-many delivery session in a workshop format.
 
 Each lab goes through implementation of a use-case in detailed steps can be done seperately.
 
+[Azure AI Studio documentation](https://learn.microsoft.com/en-us/azure/ai-studio/what-is-ai-studio?tabs=home)
 
 - [**Lab1 - Introduction to AI Studio - Getting started**](./Labs/Lab1%20-%20Introduction%20to%20AIStudio/GettingStarted.md)
 
 - <span style="color:yellow"> **Lab2. - PromptFlow -  Creat a RAG based chatbot app</span>** 
 
-    - [Lab2.1 - RAG based chatbot with  Vector Index Creation](./Labs/Lab2%20-%20Build%20&%20Deploy%20RAG%20based%20Chatbots%20with%20PromptFlow%20&%20AzureAIStudio/2.1%20PromptFlow%20-%20RAG%20based%20Chatbot%20with%20Vector%20Index%20creation%20Tutorial.md)   
+    - [Lab2.1 - RAG based chatbot with  Vector Index Creation](https://vscode.dev/github/ozgurgulerx/aistudio-workshop-ozguler/blob/main/Labs/Lab1%20-%20Introduction%20to%20PromptFlow%20%26%20AIStudio/AI%20Studio%20-%20GettingStarted.md)   
     - Lab2.2 - Creating a RAG based Chatbot using PromptFlow Q&A template
     - [Lab2.3 - Deploy & monitor your chat app](./Labs/Lab2%20-%20Build%20&%20Deploy%20RAG%20based%20Chatbots%20with%20PromptFlow%20&%20AzureAIStudio/2.3%20PromptFlow-deploy.md)
     - [Lab2.4 - Add a Content Safety Filter to your Chatbot](./Labs/Lab2%20-%20vanilla%20RAG%20automation/)
