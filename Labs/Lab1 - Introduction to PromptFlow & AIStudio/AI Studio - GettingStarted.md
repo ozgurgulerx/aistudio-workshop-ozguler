@@ -35,7 +35,6 @@ There exists a prompt samples which can be used as a template inside playground 
 
 **Build**  - is where you will find the good old AzureML PromptFlow along with the Playground to test your prompts and model hyperparameters. Evalaution which used to a seperate flow type under PromptFlow is now a seperate "tool". Custom Neural Voice (CNV)
 
-
 **Manage** - manage is where you configure and save the resources and tools required to run AzureAI Studio. e.g. connections to AI Search or external vector db's...and manage service quotas like Azure ML compute instance quotas, Azure OpenAI model quotas, AzureOpenAI PTU(Provisioned throughput capacities) and AzureOpenAI Provisioned-Managed (PTU-M) capacities...
 
 
