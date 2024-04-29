@@ -15,8 +15,8 @@ Each lab goes through implementation of a use-case in detailed steps can be done
     - [Lab1.3 Create a Basic Chat Flow](/Labs/Lab1%20-%20WikiPediaChatApp/1.3CrateaBasicChatFlow.md)
         - [1.3.1 Add non-OpenAI models as MaaS](./Labs/Lab1%20-%20WikiPediaChatApp/1.3.1AddOpenWeightModelsasMaaS.md) 
         - [1.3.2 Understand PromptFlow "Tools" & Handle chat history with simple flow examples](./Labs/Lab1%20-%20WikiPediaChatApp/1.3.2BasicFlow.md)
-        - [1.3.3 Prompt Tuning with Prompt Tool](./Labs/Lab1%20-%20WikiPediaChatApp/1.3.3PromptTuningwithPromptTool.md)
-    - [Lab1.X Create a Wikipedia Chat App](/Labs/Lab1%20-%20WikiPediaChatApp/1.2Wikipedia-chat-app.md)
+        - [1.3.3 Prompt Tuning with "Prompt Variants"](./Labs/Lab1%20-%20WikiPediaChatApp/1.3.3PromptTuningwithPromptTool.md)
+    - [Lab1.4 Create a Wikipedia Chat App](/Labs/Lab1%20-%20WikiPediaChatApp/1.4Wikipedia-chat-app.md)
 
 - <span style="color:yellow"> **Lab2 - Azure AI Studio PromptFlow -  Create a RAG based chatbot app</span>** 
 
