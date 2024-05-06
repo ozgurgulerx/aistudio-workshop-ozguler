@@ -22,7 +22,7 @@ Each lab goes through implementation of a use-case in detailed steps can be done
 
     - [Lab2.1 - RAG based chatbot with Vector Index Creation](./Labs/Lab2%20-%20PersonalFinanceRecommender/2.1CreateVectorIndex.md)
     
- 
+    - [Lab2.2 - Deploying the RAG App](./Labs/Lab2%20-%20PersonalFinanceRecommender/2.2DeployingApp.md)
 
 
     - [Lab2.3 - Deploy & monitor your chat app](./Labs/Lab2%20-%20Build%20&%20Deploy%20RAG%20based%20Chatbots%20with%20PromptFlow%20&%20AzureAIStudio/2.3%20PromptFlow-deploy.md)
