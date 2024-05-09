@@ -18,7 +18,7 @@ Each lab goes through implementation of a use-case in detailed steps can be done
         - [1.3.3 Prompt Tuning with "Prompt Variants"](./Labs/Lab1%20-%20WikiPediaChatApp/1.3.3PromptTuningwithPromptTool.md)
     - [Lab1.4 Create a Wikipedia Chat App](/Labs/Lab1%20-%20WikiPediaChatApp/1.4CreateAWikiPediaChatApp.md)
 
-- <span style="color:yellow"> **Lab2 - Build a Personal Financial Recommender App</span>** 
+- <span style="color:yellow"> **Lab2 - Build a RAG chat app with AI Studio</span>** 
 
     - [Lab2.1 - RAG based chatbot with Vector Index Creation](./Labs/Lab2%20-%20PersonalFinanceRecommender/2.1CreateVectorIndex.md)
     
@@ -26,16 +26,17 @@ Each lab goes through implementation of a use-case in detailed steps can be done
 
     - [Lab2.3 - Add a Content Safety Filter to your Chatbot](./Labs/Lab2%20-%20PersonalFinanceRecommender/2.3AzureAIContentSafety.md)
 
-    - [Lab2.5 - Evaluate your RAG based Chatbot ](./Labs/Lab2%20-%20vanilla%20RAG%20automation/)
-    - [Lab2.6 - Deploy & monitor your chatbot](./Labs/Lab2%20-%20vanilla%20RAG%20automation/Tutorial.md)
-    - [Lab2.7 - Advanced RAG patterns - multi-vector query](./Labs/Lab2%20-%20vanilla%20RAG%20automation/)
+    - [Lab2.4 - Evaluate your RAG based Chatbot ](./Labs/Lab2%20-%20PersonalFinanceRecommender/2.4Eval.md)
+
+    - [Lab2.5 -  monitor your chatbot]
+
 - [**Lab3 - Build a financial advise generator using AI Studio, AOAI and Cosmosdb**](./Lab4)
     - Lab3.1 - Create a PostgreSQL / Cosmosdb db instance 
     - Lab3.2 - Create a customer database within PostgreSQL 
     - Lab3.3 - Create a db connection in PromptFlow 
     - Lab3.4 - Create a chatflow for personal financial advise recommendation
 
-- [**Lab4 - Deploy Phi2 with AzureML**](./)
+- [**Lab4 - Advanced RAG Patterns**](./)
 
 - [Lab5 - deploy AOAI app to AzureFunctions](./)
 
