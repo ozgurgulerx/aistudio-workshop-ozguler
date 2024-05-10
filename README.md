@@ -9,7 +9,7 @@ Each lab goes through implementation of a use-case in detailed steps can be done
 
 - [**AI Studio - Introduction**](./Labs/Lab0%20-%20Introduction%20to%20PromptFlow%20&%20AIStudio/AI%20Studio-GettingStarted.md)
 
-- [**Lab1 - Azure AI Studio PromptFlow -  Create a Wikipedia Chat App**](./Labs/Lab1%20-%20WikiPediaChatApp/wikipedia-chat-app.md) 
+- [**Lab1 - Basics - Build a Wikpedia ChatApp with AI Studio**](./Labs/Lab1%20-%20WikiPediaChatApp/wikipedia-chat-app.md) 
     - [Lab1.1 Setting Up the Environment](./Labs/Lab1%20-%20WikiPediaChatApp/1.1SettingUptheEnv.md)
     - [Lab1.2 Getting Familiar with PromptFlow](/Labs/Lab1%20-%20WikiPediaChatApp/1.2GettingFamiliarWithPromptFlow.md)
     - [Lab1.3 Create a Basic Chat Flow](/Labs/Lab1%20-%20WikiPediaChatApp/1.3CrateaBasicChatFlow.md)
