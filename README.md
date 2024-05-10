@@ -30,15 +30,18 @@ Each lab goes through implementation of a use-case in detailed steps can be done
 
     - [Lab2.5 -  monitor your chatbot]
 
-- [**Lab3 - Build a financial advise generator using AI Studio, AOAI and Cosmosdb**](./Lab4)
+- [**Lab3 - Build a financial advise generator using AI Studio, AOAI, Phi3 and Cosmosdb**](./Lab4)
     - Lab3.1 - Create a PostgreSQL / Cosmosdb db instance 
     - Lab3.2 - Create a customer database within PostgreSQL 
     - Lab3.3 - Create a db connection in PromptFlow 
     - Lab3.4 - Create a chatflow for personal financial advise recommendation
 
 - [**Lab4 - Advanced RAG Patterns**](./)
+    - Lab4.1 - Agentic RAG 
 
-- [Lab5 - deploy AOAI app to AzureFunctions](./)
+- [Lab5 - Deploying PromptFlow app to AppService and Kubernetes](./)
+
+- Lab6 - Build LLMApps with PromptFlow SDK
 
 
     
