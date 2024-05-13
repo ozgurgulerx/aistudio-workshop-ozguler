@@ -34,7 +34,11 @@ Each lab goes through implementation of a use-case in detailed steps can be done
     - Lab3.1 - Create a PostgreSQL / Cosmosdb db instance 
     - Lab3.2 - Create a customer database within PostgreSQL 
     - Lab3.3 - Create a db connection in PromptFlow 
-    - Lab3.4 - Create a chatflow for personal financial advise recommendation
+    - Lab3.4 - Deploy and integrate Phi-3 as an RTE 
+    - Lab3.5 - Create a text2sql db enrichmenet flow 
+    - Lab3.6 - Create a new summarisation flow with Phi3 
+    - Lab3.7 - Create a RAG flow with IMF Economic Outlook document 
+    - Lab3.8 - Integrate three seperate flows and build the financial recommmender 
 
 - [**Lab4 - Advanced RAG Patterns**](./)
     - Lab4.1 - Agentic RAG 
