@@ -16,7 +16,7 @@ Each lab goes through implementation of a use-case in detailed steps can be done
         - [1.3.1 Add non-OpenAI models as MaaS](./Labs/Lab1%20-%20WikiPediaChatApp/1.3.1AddOpenWeightModelsasMaaS.md) 
         - [1.3.2 Understand PromptFlow "Tools" & Handle chat history with simple flow examples](./Labs/Lab1%20-%20WikiPediaChatApp/1.3.2BasicFlow.md)
         - [1.3.3 Prompt Tuning with "Prompt Variants"](./Labs/Lab1%20-%20WikiPediaChatApp/1.3.3PromptTuningwithPromptTool.md)
-    - [Lab1.4 Create a Wikipedia Chat App](/Labs/Lab1%20-%20WikiPediaChatApp/1.4CreateAWikiPediaChatApp.md)
+    - [Lab1.4 Create a Wikipedia Chat App -includes input/output mapping & conditional activation](/Labs/Lab1%20-%20WikiPediaChatApp/1.4CreateAWikiPediaChatApp.md)
 
 - <span style="color:yellow"> **Lab2 - Build a RAG chat app with AI Studio</span>** 
 
@@ -42,7 +42,7 @@ Each lab goes through implementation of a use-case in detailed steps can be done
 
 
 - [**Lab4 - Build LLM Apps with Azure AI SDK on VSCode**](./Labs/Lab4%20-%20CodeFirstDev/4.1%20BuildWithAzureAISDK.md)
-     - [Lab4.1 - Setting up your development environment](./Labs/Lab4%20-%20CodeFirstDev/4.1%20EnvSetup.md)
+     - [Lab4.1 - Setting up your development environment in VSCode](./Labs/Lab4%20-%20CodeFirstDev/4.1%20EnvSetup.md)
 - [Lab5 - Deploying PromptFlow app to AppService and Kubernetes](./)
 
 - Lab6 - Build LLMApps with PromptFlow SDK
