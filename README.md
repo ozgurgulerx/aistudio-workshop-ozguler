@@ -21,13 +21,9 @@ Each lab goes through implementation of a use-case in detailed steps can be done
 - <span style="color:yellow"> **Lab2 - Build a RAG chat app with AI Studio</span>** 
 
     - [Lab2.1 - RAG based chatbot with Vector Index Creation](./Labs/Lab2%20-%20PersonalFinanceRecommender/2.1CreateVectorIndex.md)
-    
     - [Lab2.2 - Deploying the RAG App](./Labs/Lab2%20-%20PersonalFinanceRecommender/2.2DeployingApp.md)
-
     - [Lab2.3 - Add a Content Safety Filter to your Chatbot](./Labs/Lab2%20-%20PersonalFinanceRecommender/2.3AzureAIContentSafety.md)
-
     - [Lab2.4 - Evaluate your RAG based Chatbot ](./Labs/Lab2%20-%20PersonalFinanceRecommender/2.4Eval.md)
-
     - [Lab2.5 -  monitor your chatbot]
 
 - [**Lab3 - Build a financial advise generator using AI Studio, AOAI, Phi3 and Cosmosdb**](./Lab3)
