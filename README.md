@@ -7,7 +7,6 @@ Each lab goes through implementation of a use-case in detailed steps can be done
 
 [Azure AI Studio documentation](https://learn.microsoft.com/en-us/azure/ai-studio/what-is-ai-studio?tabs=home)
 
-##  INTRODUCTION 
 
 ##  PART1 - INTRO to AI STUDIO - UI PATH 
 - [**AI Studio - Introduction**](./Labs/Lab0%20-%20Introduction%20to%20PromptFlow%20&%20AIStudio/AI%20Studio-GettingStarted.md)
@@ -30,6 +29,13 @@ Each lab goes through implementation of a use-case in detailed steps can be done
     - [Lab2.4 - Evaluate your RAG based Chatbot ](./Labs/Lab2%20-%20PersonalFinanceRecommender/2.4Eval.md)
     - Lab2.5 -  monitor your chatbot in production with PromptFlow inference metrics
 
+
+*REST OF THE WORKSHOP is currently under CONSTRUCTION. Here is a sneak peek into what's upcoming...*
+*REST OF THE WORKSHOP is currently under CONSTRUCTION. Here is a sneak peek into what's upcoming...*
+
+
+
+
 ##  PART2  - BUILD LLM APPS with AI STUDIO - "CODE FIRST" APPROACH 
 - [**Lab3 - Build & DIPLAY LLM Apps with Azure AI SDK on VSCode**](./Labs/Lab4%20-%20CodeFirstDev/4.1%20BuildWithAzureAISDK.md)
 
@@ -47,10 +53,9 @@ Each lab goes through implementation of a use-case in detailed steps can be done
 - [Lab5 - Deploying PromptFlow apps to Azure VM's, AppService and Kubernetes](./)
 
 ## PART3 - BUILD ADVANCED CHAT UI's with Azure AI Studio 
-    - Lab - Cosmosdb as ChatHistory logging
-
+- Lab3.1 - Cosmosdb as ChatHistory logging
 ## PART4 - Evaluate your AI Apps with Azure AI Studio 
-    - Lab - Advanced automated Eval 
+- Lab - Advanced automated Eval 
 
 ## PART5 - ADVANCED DATA INTEGRATION in AI STUDIO 
 - **Lab6 - Advanced RAG Patterns**
