@@ -39,8 +39,9 @@ Each lab goes through implementation of a use-case in detailed steps can be done
 - [**Lab4 - Build LLM Apps with Azure AI SDK on VSCode**](./Labs/Lab4%20-%20CodeFirstDev/4.1%20BuildWithAzureAISDK.md)
      - [Lab4.1 - Setting up your development environment in VSCode](./Labs/Lab4%20-%20CodeFirstDev/4.1%20EnvSetup.md)
 - [Lab5 - Deploying PromptFlow app to AppService and Kubernetes](./)
-- [**Lab6 - Advanced RAG Patterns**](./Labs/)
+- **Lab6 - Advanced RAG Patterns**
     - Lab6.1 - Agentic RAG 
     - Lab6.2 - Graph RAG with Cosmosdb 
-- **Lab7 - Azure AI Studio / Fabric Integrations
+- **Lab7 - Azure AI Studio / Fabric Integrations**
 - **Lab8 - LLMOPS with GitHub / PromptFlow Integration**
+- **Lab9 - AutoGen integration through FlexFlows**
