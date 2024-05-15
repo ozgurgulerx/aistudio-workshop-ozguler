@@ -37,7 +37,10 @@ Each lab goes through implementation of a use-case in detailed steps can be done
 
 
 ##  PART2  - BUILD LLM APPS with AI STUDIO - "CODE FIRST" APPROACH 
-- [**Lab3 - Build & DIPLAY LLM Apps with Azure AI SDK on VSCode**](./Labs/Lab4%20-%20CodeFirstDev/4.1%20BuildWithAzureAISDK.md)
+- ### **2.1 Build & Display LLM Apps with Azure AI SDK on VSCode**
+    - [2.1.1 Setting Up the Dev Environment on VSCore](./Labs/PART2%20/1-CodeFirstDev/1-EnvSetup.md)
+   
+
 
 - **Lab4 - Build a financial advise generator using AI Studio, AOAI, Phi3 and Cosmosdb**
     - Lab3.1 - Create a PostgreSQL / Cosmosdb db instance 
