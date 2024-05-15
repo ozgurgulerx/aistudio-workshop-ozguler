@@ -36,15 +36,11 @@ Each lab goes through implementation of a use-case in detailed steps can be done
     - Lab3.6 - Create a new summarisation flow with Phi3 
     - Lab3.7 - Create a RAG flow with IMF Economic Outlook document 
     - Lab3.8 - Integrate three seperate flows and build the financial recommmender 
-
-
 - [**Lab4 - Build LLM Apps with Azure AI SDK on VSCode**](./Labs/Lab4%20-%20CodeFirstDev/4.1%20BuildWithAzureAISDK.md)
      - [Lab4.1 - Setting up your development environment in VSCode](./Labs/Lab4%20-%20CodeFirstDev/4.1%20EnvSetup.md)
 - [Lab5 - Deploying PromptFlow app to AppService and Kubernetes](./)
-
 - [**Lab6 - Advanced RAG Patterns**](./Labs/)
     - Lab6.1 - Agentic RAG 
-
-- [**Lab7 - LLMOPS with GitHub / PromptFlow Integration**](./Labs/)
-
-- [**Lab7 - LLMOPS with GitHub / PromptFlow Integration**](./Labs/)
+    - Lab6.2 - Graph RAG with Cosmosdb 
+- **Lab7 - Azure AI Studio / Fabric Integrations
+- **Lab8 - LLMOPS with GitHub / PromptFlow Integration**
