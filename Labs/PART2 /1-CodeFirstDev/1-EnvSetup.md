@@ -28,7 +28,8 @@ The good thing is you will not need to configure your subscription, hub or proje
 Everything will be handled automatically for you.
 ![Alt text](../../../media/1453.png)
 
-
+If you would like to work interactively run "ai help" in the terminal...
+![Alt text](../../../media/1454.png)
 
 
 
