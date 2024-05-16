@@ -1,4 +1,16 @@
 # AZURE AI STUDIO WORKSHOP - Ozgur Guler
+[![GitHub stars](https://img.shields.io/github/stars/ozgurgulerx/aistudio-workshop-ozguler)](https://github.com/ozgurgulerx/aistudio-workshop-ozguler/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/ozgurgulerx/aistudio-workshop-ozguler)](https://github.com/ozgurgulerx/aistudio-workshop-ozguler/network)
+[![License](https://img.shields.io/github/license/ozgurgulerx/aistudio-workshop-ozguler)](https://github.com/ozgurgulerx/aistudio-workshop-ozguler/blob/main/LICENSE)
+[![Build Status](https://img.shields.io/github/actions/workflow/status/ozgurgulerx/aistudio-workshop-ozguler/your-workflow.yml?branch=main)](https://github.com/ozgurgulerx/aistudio-workshop-ozguler/actions)
+[![Open Issues](https://img.shields.io/github/issues/ozgurgulerx/aistudio-workshop-ozguler)](https://github.com/ozgurgulerx/aistudio-workshop-ozguler/issues)
+[![Contributors](https://img.shields.io/github/contributors/ozgurgulerx/aistudio-workshop-ozguler)](https://github.com/ozgurgulerx/aistudio-workshop-ozguler/graphs/contributors)
+[![Last Commit](https://img.shields.io/github/last-commit/ozgurgulerx/aistudio-workshop-ozguler)](https://github.com/ozgurgulerx/aistudio-workshop-ozguler/commits/main)
+[![Code Size](https://img.shields.io/github/languages/code-size/ozgurgulerx/aistudio-workshop-ozguler)](https://github.com/ozgurgulerx/aistudio-workshop-ozguler)
+[![Languages](https://img.shields.io/github/languages/top/ozgurgulerx/aistudio-workshop-ozguler)](https://github.com/ozgurgulerx/aistudio-workshop-ozguler)
+[![Watchers](https://img.shields.io/github/watchers/ozgurgulerx/aistudio-workshop-ozguler?style=social)](https://github.com/ozgurgulerx/aistudio-workshop-ozguler/watchers)
+[![Version](https://img.shields.io/github/v/release/ozgurgulerx/aistudio-workshop-ozguler?include_prereleases)](https://github.com/ozgurgulerx/aistudio-workshop-ozguler/releases)
+[![Downloads](https://img.shields.io/github/downloads/ozgurgulerx/aistudio-workshop-ozguler/total)](https://github.com/ozgurgulerx/aistudio-workshop-ozguler/releases)
 
 AI Studio workshop is a set of labs that covers LLM App development capabilities...
 Content can be used in a one-to-many delivery session in a workshop format.
