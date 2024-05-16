@@ -13,6 +13,8 @@
 [![Version](https://img.shields.io/github/v/release/ozgurgulerx/aistudio-workshop-ozguler?include_prereleases)](https://github.com/ozgurgulerx/aistudio-workshop-ozguler/releases)
 [![Downloads](https://img.shields.io/github/downloads/ozgurgulerx/aistudio-workshop-ozguler/total)](https://github.com/ozgurgulerx/aistudio-workshop-ozguler/releases)
 
+![Header Image](./media/openai-workshop.png)
+
 ## Introduction
 
 AI Studio workshop is a set of labs that covers LLM App development capabilities...
@@ -22,7 +24,7 @@ Each lab goes through the implementation of a use-case in detailed steps and can
 
 [Azure AI Studio documentation](https://learn.microsoft.com/en-us/azure/ai-studio/what-is-ai-studio?tabs=home)
 
-![Header Image](./media/openai-workshop.png)
+![Header Image](./media/openai-workshop.png
 
 ## Table of Contents
 - [PART1 - INTRO to AI STUDIO - UI PATH](#part1---intro-to-ai-studio---ui-path)
