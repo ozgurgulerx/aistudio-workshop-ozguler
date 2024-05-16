@@ -4,30 +4,33 @@
 
 # Preparing the Dev Environment
 
-First create an Azure AI Studio Hub resource by following [Setting Up The Environment](../../Lab1%20-%20WikiPediaChatApp/1.1SettingUptheEnv.md). Make sure an Azure AI Studio Project has been successfully launched.
+First create an Azure AI Studio Hub resource by following [Setting Up The Environment](../../Lab1%20-%20WikiPediaChatApp/1.1SettingUptheEnv.md). \
+Make sure an Azure AI Studio Project has been successfully launched.
 
 You can launch a new project via the Home page too...
 ![Alt text](../../../media/1420.png)
 
-Make sure there is a running VM within the project. You can check via project settings. You can launch a new VM or restart an existing VM if created before. AI Studio / VS Code integration leverages VS Code Remote Development which runs a remote dev container within the Project VM and lets your client VS Code instance remotely run code on the server over an automatically set up SSH tunnel. Prebuilt development environments are based on a docker container that has the **Azure AI SDK generative packages, the Azure AI CLI, the Prompt flow SDK**, and other tools.  All config & setup is automatically done by AI Studio. Please follow the below steps to get your local VSCode env up and running!
-![Alt text](../../../media/media/1422.png)
+Make sure there is a running VM within the project. You can check weather there is a running VM that you can attach to your flows via project settings on the left vertical menu. *(You may need to create a new VM if non has been created before.)*
+![Alt text](../../../media/1450.png)
 
-Once launched, open the project in VSCode by clicking on the button on top right. (First click on the pop down menu and choose "Open Project in VS Code" (Desktop). Otherwise by default it will be launched in your Web browser.)
-![Alt text](../../../media/1425.png)
+You can launch a new VM or restart an existing VM if one exists. AI Studio / VS Code integration leverages "VS Code Remote Developmen"t" which runs a remote prebuilt custom dev container within the Project Virtual Machine that has Azure AI SDK installed. This lets your client VS Code instance remotely run code on the custom container over an automatically set up ssh tunnel. Prebuilt development environments are based on a docker container that has the **Azure AI SDK generative packages, the Azure AI CLI, the Prompt flow SDK**, and other tools.  All config & setup is automatically done by AI Studio. Please follow the below steps to get your local VSCode env up and running!
 
-Choose the active VM (should have a green button next to it) and press the "Set Up" button. It will take a couple of minutes for the environment to be set up.
-![Alt text](../../../media/1423.png)
+While in the project, choose the </>Code Tool on the left vertical menu...
+![Alt text](../../../media/1451.png)
 
-Finally when the setup completes click on "Launch".
-![Alt text](../../media/1424.png)
+Choose "Open Project in VS Code (Desktop)" from the menu...
+![Alt text](../../../media/1452.png)
 
-Allow the VS Code App to be launched.
-![Alt text](../../../media/1426.png)
+This will launch your local VSCode, install VSCode Server on the project VM and remotely connect your local dev environment to your Azure AI Studio Project...
 
-Choose your Azure subscription and AI Studio will configure your project VM as a remote development server and log you in.
+Finally you will have your dev environment ready! \
+The good thing is you will not need to configure your subscription, hub or project details and login remotely. \
+Everything will be handled automatically for you.
+![Alt text](../../../media/1453.png)
 
-Finally you will have your dev environment ready!
- ![Alt text](../../../media/1427.png)
+
+
+
 
 Bonus Content: \
 Have a look at the tutorial at MS Learn [Tutorial: Build and deploy a question and answer copilot with the Azure AI CLI and SDK](https://learn.microsoft.com/en-us/azure/ai-studio/tutorials/deploy-copilot-sdk)

@@ -108,10 +108,11 @@ Each lab goes through the implementation of a use-case in detailed steps and can
 Please read the contributing guidelines for more information.
 
 ## License
+Copyright OzgurGuler. All rights reserved.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Connect
 
 Connect with me on LinkedIn:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/ozgurgulerx/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/ozguler/)
