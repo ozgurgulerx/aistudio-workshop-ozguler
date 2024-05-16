@@ -15,21 +15,33 @@ Make sure there is a running VM within the project. You can check weather there 
 
 You can launch a new VM or restart an existing VM if one exists. AI Studio / VS Code integration leverages "VS Code Remote Developmen"t" which runs a remote prebuilt custom dev container within the Project Virtual Machine that has Azure AI SDK installed. This lets your client VS Code instance remotely run code on the custom container over an automatically set up ssh tunnel. Prebuilt development environments are based on a docker container that has the **Azure AI SDK generative packages, the Azure AI CLI, the Prompt flow SDK**, and other tools.  All config & setup is automatically done by AI Studio. Please follow the below steps to get your local VSCode env up and running!
 
-While in the project, choose the </>Code Tool on the left vertical menu...
+While in the project, choose the </>Code Tool on the left vertical menu...(Click on "prepare the container" if such any such box is visible. Ideally you should see a Ready and green checkmark next to it as in the below ss.)
 ![Alt text](../../../media/1451.png)
 
 Choose "Open Project in VS Code (Desktop)" from the menu...
 ![Alt text](../../../media/1452.png)
 
-This will launch your local VSCode, install VSCode Server on the project VM and remotely connect your local dev environment to your Azure AI Studio Project...
+This will launch your local VSCode, install VSCode Server on the project VM and remotely connect your local dev environment to your Azure AI Studio Project...(Choose "I trust the authors" when prompted.)
 
 Finally you will have your dev environment ready! \
 The good thing is you will not need to configure your subscription, hub or project details and login remotely. \
 Everything will be handled automatically for you.
 ![Alt text](../../../media/1453.png)
 
-If you would like to work interactively run "ai help" in the terminal...
+If you would like to work interactively run "ai help" in the terminal...(Escape to exit.)
 ![Alt text](../../../media/1454.png)
+
+If you would like to login to your AI Studio Project try "ai init".
+
+You can choose to use your existing project or create a new one.
+![Alt text](../../../media/1458.png)
+
+
+Then follow up with configuring the resources (e.g. AzureOpenAI endpoints, model deployments and the AI Search service details) added to your project earlier.
+*(Please refer to [earlier "Setting up the environment step](../../Lab1%20-%20WikiPediaChatApp/1.1SettingUptheEnv.md) for project creation.)*
+
+![Alt text](../../../media/1457.png)
+
 
 
 

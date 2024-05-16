@@ -1,2 +1,3 @@
-## CREATING A CHAT FLOW WITH AZURE AI SDK 
+
+ai flow new --name x2
 
