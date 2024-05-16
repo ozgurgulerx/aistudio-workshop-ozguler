@@ -22,7 +22,7 @@ Each lab goes through the implementation of a use-case in detailed steps and can
 
 [Azure AI Studio documentation](https://learn.microsoft.com/en-us/azure/ai-studio/what-is-ai-studio?tabs=home)
 
-![Header Image](https://link-to-your-image.com/banner.png)
+![Header Image](./media/openai-workshop.png)
 
 ## Table of Contents
 - [PART1 - INTRO to AI STUDIO - UI PATH](#part1---intro-to-ai-studio---ui-path)
