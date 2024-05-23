@@ -61,22 +61,25 @@ Each lab goes through the implementation of a use-case in detailed steps and can
 *REST OF THE WORKSHOP is currently under CONSTRUCTION. Here is a sneak peek into what's upcoming...*
 
 ## PART2 - BUILD LLM APPS with AI STUDIO - "CODE FIRST" APPROACH 
-- ### **2.1 Build & Deploy LLM Apps with Azure AI SDK on VSCode**
-    - [2.1.1 Setting Up the Dev Environment on VSCode](./Labs/PART2%20/1-CodeFirstDev/1-EnvSetup.md)
-    - [2.1.2 Install Azure AI SDK to your environment](./Labs/PART2%20/1-CodeFirstDev/2-AzureAISDK.md)
+- ### 2.1 **Build & Deploy LLM Apps with Azure AI SDK on VSCode**
+    - [1 Setting Up the Dev Environment on VSCode](./Labs/PART2%20/1-CodeFirstDev/1-EnvSetup.md)
+   
 
-- **Lab4 - Build a financial advice generator using AI Studio, AOAI, Phi3 and CosmosDB**
-    - Lab3.1 Create a PostgreSQL / CosmosDB instance 
-    - Lab3.2 Create a customer database within PostgreSQL 
-    - Lab3.3 Create a DB connection in PromptFlow 
-    - Lab3.4 Deploy and integrate Phi-3 as an RTE 
-    - Lab3.5 Create a text2sql DB enrichment flow 
-    - Lab3.6 Create a new summarisation flow with Phi3 
-    - Lab3.7 Create a RAG flow with IMF Economic Outlook document 
-    - Lab3.8 Integrate three separate flows and build the financial recommender 
 
- - [Lab4.1 - Setting up your development environment in VSCode](./Labs/Lab4%20-%20CodeFirstDev/4.1%20EnvSetup.md)
- - [Lab5 - Deploying PromptFlow apps to Azure VMs, AppService, and Kubernetes](./)
+- ### 2.2 - Build a financial advice generator using AI Studio, AOAI, Phi3 and CosmosDB**
+    - 1 Create a PostgreSQL / CosmosDB instance 
+    - 2 Create a customer database within PostgreSQL 
+    - 3 Create a DB connection in PromptFlow 
+    - 4 Deploy and integrate Phi-3 as an RTE 
+    - 5 Create a text2sql DB enrichment flow 
+    - 6 Create a new summarisation flow with Phi3 
+    - 7 Create a RAG flow with IMF Economic Outlook document 
+    - 8 Integrate three separate flows and build the financial recommender 
+
+ - ### 2.3 Deploying PromptFlow apps to Azure VMs, AppService, and Kubernetes
+    - 1 Deploying to Azure VM's 
+    - 2 Deploying to AppService 
+    - 3 Deploying to AKS - Azure Kubernetes Service 
 
 ## PART3 - BUILD ADVANCED CHAT UI's with Azure AI Studio 
 - Lab3.1 CosmosDB as ChatHistory logging
