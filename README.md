@@ -42,42 +42,42 @@ Each lab goes through the implementation of a use-case in detailed steps and can
 ## PART1 - INTRO to AI STUDIO - UI PATH 
 - [**AI Studio - Introduction**](./Labs/Lab0%20-%20Introduction%20to%20PromptFlow%20&%20AIStudio/AI%20Studio-GettingStarted.md)
 - ### 1.1 - Basics - Build a Wikipedia ChatApp with AI Studio** </span>
-    1. [**Setting Up the Environment**](./Labs/Lab1%20-%20WikiPediaChatApp/1.1SettingUptheEnv.md)
-    2. [**Getting Familiar with PromptFlow**](./Labs/Lab1%20-%20WikiPediaChatApp/1.2GettingFamiliarWithPromptFlow.md)
-    3. [**Create a Basic Chat Flow**](./Labs/Lab1%20-%20WikiPediaChatApp/1.3CrateaBasicChatFlow.md)
+1. [**Setting Up the Environment**](./Labs/Lab1%20-%20WikiPediaChatApp/1.1SettingUptheEnv.md)
+2. [**Getting Familiar with PromptFlow**](./Labs/Lab1%20-%20WikiPediaChatApp/1.2GettingFamiliarWithPromptFlow.md)
+3. [**Create a Basic Chat Flow**](./Labs/Lab1%20-%20WikiPediaChatApp/1.3CrateaBasicChatFlow.md)
         - [Add non-OpenAI models as MaaS](./Labs/Lab1%20-%20WikiPediaChatApp/1.3.1AddOpenWeightModelsasMaaS.md) 
         - [Understand PromptFlow "Tools" & Handle chat history with simple flow examples](./Labs/Lab1%20-%20WikiPediaChatApp/1.3.2BasicFlow.md)
         - [Prompt Tuning with "Prompt Variants"](./Labs/Lab1%20-%20WikiPediaChatApp/1.3.3PromptTuningwithPromptTool.md)
-    4. [**Create a Wikipedia Chat App**](./Labs/Lab1%20-%20WikiPediaChatApp/1.4CreateAWikiPediaChatApp.md)
-    5. Add a model routing layer with Phi3 & Promptflow Function Calling support
+4. [**Create a Wikipedia Chat App**](./Labs/Lab1%20-%20WikiPediaChatApp/1.4CreateAWikiPediaChatApp.md)
+5. Add a model routing layer with Phi3 & Promptflow Function Calling support
 
 - ### 1.2 - Build a RAG chat app with AI Studio
-    1. [**RAG based chatbot with Vector Index Creation**](./Labs/Lab2%20-%20PersonalFinanceRecommender/2.1CreateVectorIndex.md)
-    2. [**Deploying the RAG App**](./Labs/Lab2%20-%20PersonalFinanceRecommender/2.2DeployingApp.md)
-    3. [**Add a Content Safety Filter to your Chatbot**](./Labs/Lab2%20-%20PersonalFinanceRecommender/2.3AzureAIContentSafety.md)
-    4. [**Evaluate your RAG based Chatbot**](./Labs/Lab2%20-%20PersonalFinanceRecommender/2.4Eval.md)
-    5. Monitor your chatbot in production with PromptFlow inference metrics
+1. [**RAG based chatbot with Vector Index Creation**](./Labs/Lab2%20-%20PersonalFinanceRecommender/2.1CreateVectorIndex.md)
+2. [**Deploying the RAG App**](./Labs/Lab2%20-%20PersonalFinanceRecommender/2.2DeployingApp.md)
+3. [**Add a Content Safety Filter to your Chatbot**](./Labs/Lab2%20-%20PersonalFinanceRecommender/2.3AzureAIContentSafety.md)
+4. [**Evaluate your RAG based Chatbot**](./Labs/Lab2%20-%20PersonalFinanceRecommender/2.4Eval.md)
+5. Monitor your chatbot in production with PromptFlow inference metrics
 
 *REST OF THE WORKSHOP is currently under CONSTRUCTION. Here is a sneak peek into what's upcoming...*
 
 ## PART2 - BUILD LLM APPS with AI STUDIO - "CODE FIRST" APPROACH 
 - ### 2.1 **Build & Deploy LLM Apps with Azure AI SDK on VSCode**
-    1. [**Setting Up the Dev Environment on VSCode**](./Labs/PART2%20/1-CodeFirstDev/1-EnvSetup.md)
+1. [**Setting Up the Dev Environment on VSCode**](./Labs/PART2%20/1-CodeFirstDev/1-EnvSetup.md)
    
 - ### 2.2 - Build a financial advice generator using AI Studio, AOAI, Phi3 and CosmosDB**
-    1. Create a PostgreSQL / CosmosDB instance 
-    2. Create a customer database within PostgreSQL 
-    3. Create a DB connection in PromptFlow 
-    4. Deploy and integrate Phi-3 as an RTE 
-    5. Create a text2sql DB enrichment flow 
-    6. Create a new summarisation flow with Phi3 
-    7. Create a RAG flow with IMF Economic Outlook document 
-    8. Integrate three separate flows and build the financial recommender 
+1. Create a PostgreSQL / CosmosDB instance 
+2. Create a customer database within PostgreSQL 
+3. Create a DB connection in PromptFlow 
+4. Deploy and integrate Phi-3 as an RTE 
+5. Create a text2sql DB enrichment flow 
+6. Create a new summarisation flow with Phi3 
+7. Create a RAG flow with IMF Economic Outlook document 
+8. Integrate three separate flows and build the financial recommender 
 
  - ### 2.3 Deploying PromptFlow apps to Azure VMs, AppService, and Kubernetes
-    1. Deploying to Azure VM's 
-    2. Deploying to AppService 
-    3. Deploying to AKS - Azure Kubernetes Service
+1. Deploying to Azure VM's 
+2. Deploying to AppService 
+3. Deploying to AKS - Azure Kubernetes Service
 
 - ### 2.4 Tracing GenAI Apps in Azure AI Studip 
 
