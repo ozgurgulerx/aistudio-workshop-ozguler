@@ -108,6 +108,9 @@ Each lab goes through the implementation of a use-case in detailed steps and can
 
 ## PART9 - LOGGING & OBSERVABILITY for LLM Apps on Azure AI Studio 
 
+
+## PART10 - ASSISTANTS API in AI Studio 
+
 ## Contributing
 
 Please read the contributing guidelines for more information.
