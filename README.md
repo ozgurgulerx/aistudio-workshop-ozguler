@@ -82,7 +82,6 @@ Each lab goes through the implementation of a use-case in detailed steps and can
 - ### 2.4 Tracing GenAI Apps in Azure AI Studip 
 
 
-
 ## PART3 - BUILD ADVANCED CHAT UI's with Azure AI Studio 
 - Lab3.1 CosmosDB as ChatHistory logging
 

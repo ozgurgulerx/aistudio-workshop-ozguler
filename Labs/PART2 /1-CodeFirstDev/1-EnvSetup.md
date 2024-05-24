@@ -42,9 +42,6 @@ Then follow up with configuring the resources (e.g. AzureOpenAI endpoints, model
 
 ![Alt text](../../../media/1457.png)
 
-
-
-
 Bonus Content: \
 Have a look at the tutorial at MS Learn [Tutorial: Build and deploy a question and answer copilot with the Azure AI CLI and SDK](https://learn.microsoft.com/en-us/azure/ai-studio/tutorials/deploy-copilot-sdk)
 
@@ -52,3 +49,22 @@ Other ways you can use Azure AI SDK...\
 Option2 Visual Studio Code Dev Container \
 Option3 GitHub Workspaces 
 Follow the [documentation](https://learn.microsoft.com/en-us/azure/ai-studio/how-to/sdk-install?tabs=linux) to go forward with Option2/3.
+
+## PromptFlow 
+
+Prompt flows already created in the Azure AI Studio can be found at `shared\Users\{user-name}\promptflow`. 
+
+
+![Alt text](../../../media/71.png)
+
+You can also create new flows in your `code` or `shared` folder using the CLIs and SDKs.
+
+1. To reference an existing flow using the Azure AI CLI, use `ai flow invoke`
+1. To create a new flow using the Azure AI CLI, use `ai flow new`
+
+For prompt flow specific capabilities that are not present in the AI SDK and CLI, you can work directly with the Prompt flow CLI or SDK, or the Prompt flow VS Code extension (all pre-installed in this environment). See [prompt flow capabilities](<https://microsoft.github.io/promptflow/reference/index.html>) for more details.
+https://microsoft.github.io/promptflow/reference/index.html
+
+
+Next in the terminal type "pf upgrade" to upgrade the pf CLI. 
+![Alt text](../../../media/72.png)
