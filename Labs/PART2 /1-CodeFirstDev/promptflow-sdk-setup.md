@@ -5,8 +5,9 @@ PromptFlow is a suite of development tools designed to streamline the end-to-end
 
 In this section you'll learn how to leverage the Promptflow SDK to streamline your LLM-based application development workflow. This workshop is designed for developers who are experienced in Python programming and are looking to enhance their capabilities in LLMOps.
 
+You can refer to the following documentation for further details on PromptFlow...
 
-MS Learn Documentation [Code First: Dev to Prod](https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/how-to-integrate-with-llm-app-devops?view=azureml-api-2&tabs=cli)
+- MS Learn Documentation [Code First: Dev to Prod](https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/how-to-integrate-with-llm-app-devops?view=azureml-api-2&tabs=cli)
 
-[PromptFlow GitHub Documentation](https://microsoft.github.io/promptflow/index.html#)
+- [PromptFlow GitHub Documentation](https://microsoft.github.io/promptflow/index.html#)
 
