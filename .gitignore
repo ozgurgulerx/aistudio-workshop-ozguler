@@ -1,3 +1,4 @@
 .DS_Store
 # Ignore the pf directory
+.env
 pf/
