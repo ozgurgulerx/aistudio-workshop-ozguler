@@ -16,10 +16,29 @@ You can refer to the following documentation for further details on PromptFlow..
 
 ## Install PromptFlow SDK 
 
+With PromptFlow SDK you can develop your prompts locally. \
+You can then seamlessly integrate your flow to Azure ML or Azure AI Studio.
+
 To install the promptflow SDK use...
 ```
 pip install promptflow
+pip install --upgrade python-dotenv
 ```
+
+
+Confirm the required packages are installed...
+```
+pip list | grep promptflow
+```
+![Alt text](../../../media/74.png) 
+
+Confirm the installation...
+pip list | grep promptflow
+
+```
+pf --version 
+```
+![Alt text](../../../media/75.png)
 
 ### Add AOAI endpoint and key as environment variables
 Create a file named .env in your project directory with the following content:
