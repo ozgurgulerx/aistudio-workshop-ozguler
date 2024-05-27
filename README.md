@@ -67,7 +67,12 @@ Each lab goes through the implementation of a use-case in detailed steps and can
         - [**Your first LLM App with the PromptFlow SDK**](./Labs/PART2%20/1-CodeFirstDev/first-pf-sdk-app.md)
         - **Using Prompti with PromptFlow** 
             - [**What is Prompti & When to use it?**](./Labs/PART2%20/1-CodeFirstDev/prompti.md)
-            - [**Using Prompti with PromptFlow](./Labs/PART2%20/1-CodeFirstDev/prompti-pf.md)        
+            - [**Using Prompti with PromptFlow**](./Labs/PART2%20/1-CodeFirstDev/prompti-pf.md)  
+        - [**Debugging and Tracing with PromptFlow**](./Labs/PART2%20/1-CodeFirstDev/pf-tracing.md)
+        
+              
+
+
     - **Azure AI SDK**
         - **Azure Azure AI SDK - When do we need it?**
         - [**Installing the Azure AI SDK**](./Labs/PART2%20/1-CodeFirstDev/1-EnvSetup.md)
