@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: promptflow-core
+Version: 1.11.0
+Summary: Prompt flow core
+Home-page: https://microsoft.github.io/promptflow/
+License: MIT
+Keywords: core
+Author: Microsoft Corporation
+Author-email: aml-pt-eng@microsoft.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Provides-Extra: azureml-serving
+Provides-Extra: executor-service
+Requires-Dist: azure-ai-ml (>=1.14.0,<2.0.0) ; extra == "azureml-serving"
+Requires-Dist: azure-identity (>=1.12.0,<2.0.0) ; extra == "azureml-serving"
+Requires-Dist: azureml-ai-monitoring (>=0.1.0b3,<1.0.0) ; extra == "azureml-serving"
+Requires-Dist: docutils (!=0.21.post1)
+Requires-Dist: fastapi (>=0.109.0,<1.0.0)
+Requires-Dist: filetype (>=1.2.0)
+Requires-Dist: flask (>=2.2.3,<4.0.0)
+Requires-Dist: jsonschema (>=4.0.0,<5.0.0)
+Requires-Dist: promptflow-tracing (==1.11.0)
+Requires-Dist: psutil
+Requires-Dist: python-dateutil (>=2.1.0,<3.0.0)
+Requires-Dist: ruamel.yaml (>=0.17.10,<1.0.0)
+Project-URL: Bug Reports, https://github.com/microsoft/promptflow/issues
+Project-URL: Repository, https://github.com/microsoft/promptflow
+Description-Content-Type: text/markdown
+
+# Prompt flow core
+
+[![Python package](https://img.shields.io/pypi/v/promptflow-core)](https://pypi.org/project/promptflow-core/)
+[![Python](https://img.shields.io/pypi/pyversions/promptflow.svg?maxAge=2592000)](https://pypi.python.org/pypi/promptflow-core/)
+[![SDK](https://img.shields.io/badge/SDK-reference-blue)](https://microsoft.github.io/promptflow/reference/python-library-reference/promptflow-core/promptflow.html)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/promptflow-core)](https://pypi.org/project/promptflow-core/)
+
+## Introduction
+
+The `promptflow-core` package provides the essential features needed to execute a `flow` in prompt flow.
+
+For those seeking a **minimal** dependency to execute a flow in serving or cloud run scenarios, installing this package alone will suffice.
+
+However, if you require the full capabilities of the `devkit` to simplify the usage of flow, connection, and run in local development lifecycle, please install the complete package using `pip install promptflow`.
+
+## ChangeLog
+
+Reach the full change log [here](https://microsoft.github.io/promptflow/reference/changelog/promptflow-core.html).
+

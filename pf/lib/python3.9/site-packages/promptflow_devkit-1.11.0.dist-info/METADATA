@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: promptflow-devkit
+Version: 1.11.0
+Summary: Prompt flow devkit
+Home-page: https://microsoft.github.io/promptflow/
+License: MIT
+Keywords: devkit
+Author: Microsoft Corporation
+Author-email: aml-pt-eng@microsoft.com
+Requires-Python: >=3.8, !=2.7.*, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*, !=3.6.*, !=3.7.*
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Provides-Extra: executable
+Provides-Extra: pyarrow
+Requires-Dist: argcomplete (>=3.2.3)
+Requires-Dist: azure-monitor-opentelemetry-exporter (>=1.0.0b21,<2.0.0)
+Requires-Dist: bs4 ; extra == "executable"
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Requires-Dist: cryptography (>=42.0.4)
+Requires-Dist: filelock (>=3.4.0,<4.0.0)
+Requires-Dist: flask-cors (>=4.0.0,<5.0.0)
+Requires-Dist: flask-restx (>=1.2.0,<2.0.0)
+Requires-Dist: gitpython (>=3.1.24,<4.0.0)
+Requires-Dist: httpx (>=0.25.1)
+Requires-Dist: keyring (>=24.2.0,<25.0.0)
+Requires-Dist: marshmallow (>=3.5,<4.0.0)
+Requires-Dist: opentelemetry-exporter-otlp-proto-http (>=1.22.0,<2.0.0)
+Requires-Dist: pandas (>=1.5.3,<3.0.0)
+Requires-Dist: pillow (>=10.1.0,<11.0.0)
+Requires-Dist: promptflow-core (>=1.11.0,<2.0.0)
+Requires-Dist: pyarrow (>=14.0.1,<15.0.0) ; extra == "executable" or extra == "pyarrow"
+Requires-Dist: pydash (>=6.0.0,<8.0.0)
+Requires-Dist: pyinstaller (>=5.13.2) ; extra == "executable"
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: pywin32 ; sys_platform == "win32"
+Requires-Dist: sqlalchemy (>=1.4.48,<3.0.0)
+Requires-Dist: streamlit (>=1.26.0) ; extra == "executable"
+Requires-Dist: streamlit-quill (<0.1.0) ; extra == "executable"
+Requires-Dist: strictyaml (>=1.5.0,<2.0.0)
+Requires-Dist: tabulate (>=0.9.0,<1.0.0)
+Requires-Dist: waitress (>=2.1.2,<3.0.0)
+Project-URL: Bug Reports, https://github.com/microsoft/promptflow/issues
+Project-URL: Repository, https://github.com/microsoft/promptflow
+Description-Content-Type: text/markdown
+
+# Prompt flow devkit
+
+[![Python package](https://img.shields.io/pypi/v/promptflow-devkit)](https://pypi.org/project/promptflow-devkit/)
+[![Python](https://img.shields.io/pypi/pyversions/promptflow.svg?maxAge=2592000)](https://pypi.python.org/pypi/promptflow-devkit/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/promptflow-devkit)](https://pypi.org/project/promptflow-devkit/)
+[![CLI](https://img.shields.io/badge/CLI-reference-blue)](https://microsoft.github.io/promptflow/reference/pf-command-reference.html)
+[![SDK](https://img.shields.io/badge/SDK-reference-blue)](https://microsoft.github.io/promptflow/reference/python-library-reference/promptflow-devkit/promptflow.client.html)
+[![vsc extension](https://img.shields.io/visual-studio-marketplace/i/prompt-flow.prompt-flow?logo=Visual%20Studio&label=Extension%20)](https://marketplace.visualstudio.com/items?itemName=prompt-flow.prompt-flow)
+
+[![Doc](https://img.shields.io/badge/Doc-online-green)](https://microsoft.github.io/promptflow/index.html)
+[![Issue](https://img.shields.io/github/issues/microsoft/promptflow)](https://github.com/microsoft/promptflow/issues/new/choose)
+[![Discussions](https://img.shields.io/github/discussions/microsoft/promptflow)](https://github.com/microsoft/promptflow/issues/new/choose)
+[![CONTRIBUTING](https://img.shields.io/badge/Contributing-8A2BE2)](https://github.com/microsoft/promptflow/blob/main/CONTRIBUTING.md)
+[![License: MIT](https://img.shields.io/github/license/microsoft/promptflow)](https://github.com/microsoft/promptflow/blob/main/LICENSE)
+
+> Welcome to join us to make prompt flow better by
+> participating [discussions](https://github.com/microsoft/promptflow/discussions),
+> opening [issues](https://github.com/microsoft/promptflow/issues/new/choose),
+> submitting [PRs](https://github.com/microsoft/promptflow/pulls).
+
+## Introduction
+
+The `promptflow-devkit` is a subpackage of [`promptflow`](https://pypi.org/project/promptflow). It contains features like :
+
+- **Create and iteratively develop flow**
+    - Debug and iterate your flows, especially the [interaction with LLMs](https://microsoft.github.io/promptflow/concepts/concept-connections.html) with ease.
+    - Provide Tracing collector and UI to help user achieve comprehensive observability of their LLM applications.
+- **Evaluate flow quality and performance**
+    - Evaluate your flow's quality and performance with larger datasets.
+    - Integrate the testing and evaluation into your CI/CD system to ensure quality of your flow.
+- **Streamlined development cycle for production**
+    - Deploy your flow to the serving platform you choose or integrate into your app's code base easily.
+
+
+NOTE:
+- For users seeking a **minimal** dependency to execute a flow in serving or cloud run scenarios, consider installing the `promptflow-core` package. This package equips you with the fundamental features necessary for executing a `flow` in prompt flow.
+- For users need to leverage the cloud version of [prompt flow in Azure AI](https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/overview-what-is-prompt-flow?view=azureml-api-2), please install the `promptflow-azure` package.
+
+## ChangeLog
+
+Reach the full change log [here](https://microsoft.github.io/promptflow/reference/changelog/promptflow-devkit.html).
+

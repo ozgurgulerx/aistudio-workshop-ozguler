@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: promptflow-tracing
+Version: 1.11.0
+Summary: Prompt flow tracing
+Home-page: https://microsoft.github.io/promptflow/
+License: MIT
+Keywords: telemetry
+Author: Microsoft Corporation
+Author-email: aml-pt-eng@microsoft.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Dist: openai
+Requires-Dist: opentelemetry-sdk (>=1.22.0,<2.0.0)
+Requires-Dist: tiktoken (>=0.4.0)
+Project-URL: Bug Reports, https://github.com/microsoft/promptflow/issues
+Project-URL: Repository, https://github.com/microsoft/promptflow
+Description-Content-Type: text/markdown
+
+# Prompt flow tracing
+
+[![Python package](https://img.shields.io/pypi/v/promptflow-tracing)](https://pypi.org/project/promptflow-tracing/)
+[![SDK](https://img.shields.io/badge/SDK-reference-blue)](https://microsoft.github.io/promptflow/reference/python-library-reference/promptflow-tracing/promptflow.tracing.html)
+[![License: MIT](https://img.shields.io/github/license/microsoft/promptflow)](https://github.com/microsoft/promptflow/blob/main/LICENSE)
+
+## Introduction
+
+The `promptflow-tracing` package offers tracing capabilities to capture and illustrate the internal execution processes of both DAG flow and Flex flow. It is designed to be compatible with [OpenTelemetry](https://opentelemetry.io/). This makes it a valuable tool for Flex flow developers who use various frameworks (such as langchain, semantic kernel, OpenAI, and various agents) to build LLM-based applications. By using promptflow-tracing, developers can achieve comprehensive observability of their LLM applications.
+
+## ChangeLog
+
+Reach the full change log [here](https://microsoft.github.io/promptflow/reference/changelog/promptflow-tracing.html).
+
