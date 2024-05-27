@@ -39,7 +39,7 @@ Each lab goes through the implementation of a use-case in detailed steps and can
 - [License](#license)
 - [Connect](#connect)
 
-## PART1 - INTRO to AI STUDIO - UI PATH 
+## PART1 - INTRO to AI STUDIO - UI PATH (DAG FLOW's)
 - [**AI Studio - Introduction**](./Labs/Lab0%20-%20Introduction%20to%20PromptFlow%20&%20AIStudio/AI%20Studio-GettingStarted.md)
 - ### 1.1 - Basics - Build a Wikipedia ChatApp with AI Studio** </span>
     - [**Setting Up the Environment**](./Labs/Lab1%20-%20WikiPediaChatApp/1.1SettingUptheEnv.md)
@@ -60,10 +60,11 @@ Each lab goes through the implementation of a use-case in detailed steps and can
 
 *REST OF THE WORKSHOP is currently under CONSTRUCTION. Here is a sneak peek into what's upcoming...*
 
-## PART2 - BUILD LLM APPS with AI STUDIO - "CODE FIRST" APPROACH 
-- ### 2.1 **Build, Trace & Deploy LLM Apps with Azure AI SDK on VSCode**
-    - **Developing LLMApps with PromptFlow SDK**
-        - [**Installing the PromptFlow SDK**](./Labs/PART2%20/1-CodeFirstDev/promptflow-sdk-setup.md)
+## PART2 - BUILD LLM APPS with AI STUDIO - "CODE FIRST" APPROACH (FLEX FLOW's)
+- ### 2.1 **Build, Trace & Deploy LLM Apps with Azure AI SDK**
+    - [**Developing LLMApps with PromptFlow SDK**](./Labs/PART2%20/1-CodeFirstDev/pf-main.md)
+        - [**PromptFlow Core Concepts**](./Labs/PART2%20/1-CodeFirstDev/pf-concepts.md)
+        - [**Installing the PromptFlow SDK**](./Labs/PART2%20/1-CodeFirstDev/pf-sdk-setup.md)
         - [**Your first LLM App with the PromptFlow SDK**](./Labs/PART2%20/1-CodeFirstDev/first-pf-sdk-app.md)
         - [**PromptFlow VSCode Plugin**](./Labs/PART2%20/1-CodeFirstDev/pf-vscode-plugin.md)
         - **Using Prompti with PromptFlow** 
@@ -73,8 +74,7 @@ Each lab goes through the implementation of a use-case in detailed steps and can
 
               
 
-
-    - **Azure AI SDK**
+    - [**Use PromptFlow in the Cloud with Azure AI SDK**](https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/overview-what-is-prompt-flow?view=azureml-api-2)
         - **Azure Azure AI SDK - When do we need it?**
         - [**Installing the Azure AI SDK**](./Labs/PART2%20/1-CodeFirstDev/1-EnvSetup.md)
         - **Sample App with Azure AI SDK**
