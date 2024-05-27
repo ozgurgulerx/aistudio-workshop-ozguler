@@ -66,7 +66,9 @@ Each lab goes through the implementation of a use-case in detailed steps and can
         - [**Installing the PromptFlow SDK**](./Labs/PART2%20/1-CodeFirstDev/promptflow-sdk-setup.md)
         - [**Your first LLM App with the PromptFlow SDK**](./Labs/PART2%20/1-CodeFirstDev/first-pf-sdk-app.md)
     - **Azure AI SDK**
+        - **Azure AI SDK - When do we need it?**
         - [**Installing Azure AI SDK**](./Labs/PART2%20/1-CodeFirstDev/1-EnvSetup.md)
+        - **Sample App with Azure AI SDK**
 
    
 - ### 2.2 - Build a financial advice generator using AI Studio, AOAI, Phi3 and CosmosDB**
