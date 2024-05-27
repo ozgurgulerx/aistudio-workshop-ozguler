@@ -41,7 +41,7 @@ Each lab goes through the implementation of a use-case in detailed steps and can
 
 ## PART1 - INTRO to AI STUDIO - UI PATH (DAG FLOW's)
 - [**AI Studio - Introduction**](./Labs/Lab0%20-%20Introduction%20to%20PromptFlow%20&%20AIStudio/AI%20Studio-GettingStarted.md)
-- ### 1.1 - Basics - Build a Wikipedia ChatApp with AI Studio** </span>
+- ### 1.1 - Basics - Build a Wikipedia ChatApp with AI Studio </span>
     - [**Setting Up the Environment**](./Labs/Lab1%20-%20WikiPediaChatApp/1.1SettingUptheEnv.md)
     - [**Getting Familiar with PromptFlow**](./Labs/Lab1%20-%20WikiPediaChatApp/1.2GettingFamiliarWithPromptFlow.md)
     - [**Create a Basic Chat Flow**](./Labs/Lab1%20-%20WikiPediaChatApp/1.3CrateaBasicChatFlow.md)

@@ -1,9 +1,3 @@
-# First App with PF SDK 
-
-Prompty is announced at MS Build 2024, intends to turn prompts to coding assets. 
-Refer to [Prompty.md] for more...
-
-```
 ---
 name: Minimal Chat
 model:
@@ -26,4 +20,3 @@ You are a helpful assistant.
 
 user:
 {{question}}
-```
