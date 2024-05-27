@@ -14,7 +14,7 @@ You can refer to the following documentation for further details on PromptFlow..
 - [PromptFlow GitHub Documentation](https://microsoft.github.io/promptflow/index.html#)
 
 
-## Install PromptFlow SDK 
+## Install the PromptFlow SDK 
 
 With PromptFlow SDK you can develop your prompts locally. \
 You can then seamlessly integrate your flow to Azure ML or Azure AI Studio.
@@ -48,3 +48,4 @@ AZURE_OPENAI_API_KEY=your_api_key_here
 AZURE_OPENAI_ENDPOINT=your_endpoint_here
 ```
 ![Alt text](../../../media/73.png) 
+

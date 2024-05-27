@@ -62,8 +62,11 @@ Each lab goes through the implementation of a use-case in detailed steps and can
 
 ## PART2 - BUILD LLM APPS with AI STUDIO - "CODE FIRST" APPROACH 
 - ### 2.1 **Build & Deploy LLM Apps with Azure AI SDK on VSCode**
-    - [**Setting Up the Dev Environment on VSCod - Azure AI SDK**](./Labs/PART2%20/CodeFirstDev/1-EnvSetup.md)
-    - [**Developing LLMApps with PromotFlow SDK**](./Labs/PART2%20/1-CodeFirstDev/promptflow-sdk-setup.md)
+    - [**Setting Up the Dev Environment on VSCod - Azure AI SDK**](./Labs/PART2%20/CodeFirstDev/1-EnvSetup.md) 
+    - **Developing LLMApps with PromptFlow SDK**
+        - [**Installing the PromptFlow SDK**](./Labs/PART2%20/1-CodeFirstDev/promptflow-sdk-setup.md)
+        - [**Your first LLM App with the PromptFlow SDK**](./Labs/PART2%20/1-CodeFirstDev/first-pf-sdk-app.md)
+        
    
 - ### 2.2 - Build a financial advice generator using AI Studio, AOAI, Phi3 and CosmosDB**
     - Create a PostgreSQL / CosmosDB instance 
