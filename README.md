@@ -61,15 +61,16 @@ Each lab goes through the implementation of a use-case in detailed steps and can
 *REST OF THE WORKSHOP is currently under CONSTRUCTION. Here is a sneak peek into what's upcoming...*
 
 ## PART2 - BUILD LLM APPS with AI STUDIO - "CODE FIRST" APPROACH 
-- ### 2.1 **Build & Deploy LLM Apps with Azure AI SDK on VSCode**
+- ### 2.1 **Build, Trace & Deploy LLM Apps with Azure AI SDK on VSCode**
     - **Developing LLMApps with PromptFlow SDK**
         - [**Installing the PromptFlow SDK**](./Labs/PART2%20/1-CodeFirstDev/promptflow-sdk-setup.md)
         - [**Your first LLM App with the PromptFlow SDK**](./Labs/PART2%20/1-CodeFirstDev/first-pf-sdk-app.md)
+        - [**PromptFlow VSCode Plugin**](./Labs/PART2%20/1-CodeFirstDev/pf-vscode-plugin.md)
         - **Using Prompti with PromptFlow** 
-            - [**What is Prompti & When to use it?**](./Labs/PART2%20/1-CodeFirstDev/prompti.md)
+            - [**What is Prompti & How it can help?**](./Labs/PART2%20/1-CodeFirstDev/prompti.md)
             - [**Using Prompti with PromptFlow**](./Labs/PART2%20/1-CodeFirstDev/prompti-pf.md)  
         - [**Debugging and Tracing with PromptFlow**](./Labs/PART2%20/1-CodeFirstDev/pf-tracing.md)
-        
+
               
 
 
@@ -77,6 +78,8 @@ Each lab goes through the implementation of a use-case in detailed steps and can
         - **Azure Azure AI SDK - When do we need it?**
         - [**Installing the Azure AI SDK**](./Labs/PART2%20/1-CodeFirstDev/1-EnvSetup.md)
         - **Sample App with Azure AI SDK**
+        - **Quick-start templates with azure developer CLI**
+        - **Integration with AI Toolkit & Visual Studio Code**
     - **Prompti**
   
 
