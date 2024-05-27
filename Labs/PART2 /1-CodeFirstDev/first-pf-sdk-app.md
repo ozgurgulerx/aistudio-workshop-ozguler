@@ -3,6 +3,10 @@
 Prompty is announced at MS Build 2024, intends to turn prompts to coding assets. 
 Refer to [Prompty.md] for more...
 
+Make sure .env file is created in the same folder and includes the AzureOpenAI endpoint and key details in it.
+
+
+
 ## Create your prompt as a Prompty file
 ```
 ---
@@ -59,5 +63,13 @@ if __name__ == "__main__":
 
     start_trace()
 
-    result = chat("What's the capital of France?")
+    result = chat("What is quantum entanglement?")
     print(result)
+```
+
+The flow.py script is designed to interact with an Azure OpenAI deployment using the PromptFlow framework. It begins by importing necessary modules and setting up the base directory. The script defines a chat function, decorated with @trace for execution tracing, which accepts a question, checks for required API keys in the environment, and loads them from a .env file if they are missing. The function then loads a PromptFlow configuration from a .prompty file and uses it to generate a response to the input question by calling the deployment. When run as a main program, the script starts tracing, calls the chat function with the question “What is quantum entanglement?”, and prints the resulting answer. This setup allows for dynamic input handling and interaction with a specified LLM deployment, facilitating easy testing and debugging of the flow.
+
+![Alt text](../../../media/77.png)
+
+Copy the tracing URL given and visit the URL with your browser...
+![Alt text](../../../media/78.png)
