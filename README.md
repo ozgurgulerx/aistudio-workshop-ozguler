@@ -66,7 +66,7 @@ Each lab goes through the implementation of a use-case in detailed steps and can
         - [**PromptFlow Core Concepts**](./Labs/PART2%20/1-CodeFirstDev/pf-concepts.md)
         - [**Installing the PromptFlow SDK**](./Labs/PART2%20/1-CodeFirstDev/pf-sdk-setup.md)
         - [**Your first LLM App with the PromptFlow SDK**](./Labs/PART2%20/1-CodeFirstDev/first-pf-sdk-app.md)
-        - [**PromptFlow VSCode Plugin**](./Labs/PART2%20/1-CodeFirstDev/pf-vscode-plugin.md)
+        - [**PromptFlow VSCode Plugin**](./Labs/PART2%20/1-CodeFirstDev/pf-vscode-plugin.md) - IN-PROGRESS!
         - **Using Prompti with PromptFlow** 
             - [**What is Prompti & How it can help?**](./Labs/PART2%20/1-CodeFirstDev/prompti.md)
             - [**Using Prompti with PromptFlow**](./Labs/PART2%20/1-CodeFirstDev/prompti-pf.md)  
@@ -78,9 +78,9 @@ Each lab goes through the implementation of a use-case in detailed steps and can
         - **Azure Azure AI SDK - When do we need it?**
         - [**Installing the Azure AI SDK**](./Labs/PART2%20/1-CodeFirstDev/1-EnvSetup.md)
         - **Sample App with Azure AI SDK**
-        - **Quick-start templates with azure developer CLI**
+        - **Quick-start templates with Azure Developer CLI**
         - **Integration with AI Toolkit & Visual Studio Code**
-    - **Prompti**
+
   
 
 
