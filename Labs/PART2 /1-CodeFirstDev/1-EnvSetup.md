@@ -68,3 +68,5 @@ https://microsoft.github.io/promptflow/reference/index.html
 
 Next in the terminal type "pf upgrade" to upgrade the pf CLI. 
 ![Alt text](../../../media/72.png)
+
+[Home](../../../README.md)
