@@ -60,3 +60,8 @@ AZURE_OPENAI_ENDPOINT=your_endpoint_here
 ```
 ![Alt text](../../../media/73.png) 
 
+You can create LLM apps using a Python function or class as the entry point, which encapsulating your app logic. You can directly test or run these entries with pure code experience. 
+
+Next let's see how this is done!
+
+[Home](../../../README.md)
