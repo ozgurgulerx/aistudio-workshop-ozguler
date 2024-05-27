@@ -16,7 +16,7 @@ def chat(question: str = "What's the capital of France?") -> str:
         # load environment variables from .env file
         load_dotenv()
 
-    prompty = Prompty.load(source=BASE_DIR / "chat.prompty")
+    prompty = Prompty.load(source=BASE_DIR / "21-chat.prompty")
     output = prompty(question=question)
     return output
 
