@@ -15,9 +15,20 @@ You can refer to the following documentation for further details on PromptFlow..
 
 
 ## Install the PromptFlow SDK 
-
 With PromptFlow SDK you can develop your prompts locally. \
 You can then seamlessly integrate your flow to Azure ML or Azure AI Studio.
+
+When installing prompt flow locally, a virtual environment is recommended for the installation. This ensures that the dependencies for prompt flow are isolated from the rest of your system. Please ensure you have a working python environment (python>=3.8,<4.0), a new virtual environment is preferred.
+
+```
+python3 -m venv pf
+source pf/bin/activate
+```
+To deactivate the virtual environment later, use...
+```
+deactivate
+```
+
 
 To install the promptflow SDK use...
 ```
