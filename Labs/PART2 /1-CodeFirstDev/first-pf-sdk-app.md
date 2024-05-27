@@ -53,4 +53,11 @@ def chat(question: str = "What's the capital of France?") -> str:
     # trigger a llm call with the prompty obj
     output = prompty(question=question)
     return output
-```
+
+if __name__ == "__main__":
+    from promptflow.tracing import start_trace
+
+    start_trace()
+
+    result = chat("What's the capital of France?")
+    print(result)
