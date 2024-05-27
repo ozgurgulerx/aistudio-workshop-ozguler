@@ -25,5 +25,5 @@ if __name__ == "__main__":
 
     start_trace()
 
-    result = chat("What's the capital of France?")
+    result = chat("What is quantum entanglement?")
     print(result)
