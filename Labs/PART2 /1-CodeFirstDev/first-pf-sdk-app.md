@@ -1,11 +1,11 @@
 # First App with PF SDK 
 
 Prompty is announced at MS Build 2024, intends to turn prompts to coding assets. Prompty is designed to simplify the development of prompt templates.
-Refer to [Prompty.md] for more...
+*(Refer to [Prompty.md] for more information...)*
 
 Make sure .env file is created in the same folder and includes the AzureOpenAI endpoint and key details in it.
 
-
+You can work on the Jupyter notebook [here](../../../code/first-pf-sdk-notebook.ipynb)
 
 ## Create your prompt as a Prompty file
 ```
