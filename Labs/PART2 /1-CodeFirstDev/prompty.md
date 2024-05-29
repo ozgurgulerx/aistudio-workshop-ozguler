@@ -1,4 +1,5 @@
 # Prompty
+![Alt text](../../../media/79.png) 
 
 [**Prompty**](https://microsoft.github.io) is a standard format that unifies the prompt and how it is executed as a single, language-independent asset, turning the asset into code. This enables developers to interact with the prompt asset with code.
 In that sense Prompti is a versatile prompt parsing and formatting tool. It lets you treat your prompts as a "function".
