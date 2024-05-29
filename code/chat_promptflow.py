@@ -1,4 +1,5 @@
 import json
+import os 
 
 from pathlib import Path
 folder = Path(__file__).parent.absolute().as_posix()
@@ -11,6 +12,7 @@ def flow_entry(
 ) -> str:
   # path to prompty (requires absolute path for deployment)
   path_to_prompty = folder + "/chat.prompty"
+  load_dotenv()
 
   # load prompty as a flow
   flow = Prompty.load(path_to_prompty)
