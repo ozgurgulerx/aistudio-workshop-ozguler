@@ -69,6 +69,7 @@ Each lab goes through the implementation of a use-case in detailed steps and can
         - [**PromptFlow SDK - Your first LLM App with Prompty & Tracing**](./code/first-pf-sdk-notebook.ipynb)
         - [**PromptFlow SDK - App with different flow types and tools**](./code/pf-sdk-app-flows-tools.ipynb)
         - **PromptFlow SDK - Agency with AutoGen & FlexFlows** - IN PROGRESS!
+        - **PromptFlow SDK - Evaluation** - IN PROGRESS!        
         - [**PromptFlow SDK - VSCode Plugin**](./Labs/PART2%20/1-CodeFirstDev/pf-vscode-plugin.md) - IN-PROGRESS! 
         - [**PromptFlow SDK - Debugging and Tracing**](./Labs/PART2%20/1-CodeFirstDev/pf-tracing.md) - IN PROGRESS!
     - [**Use PromptFlow in the Cloud with Azure AI SDK**](https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/overview-what-is-prompt-flow?view=azureml-api-2)
