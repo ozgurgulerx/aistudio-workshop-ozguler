@@ -64,14 +64,13 @@ Each lab goes through the implementation of a use-case in detailed steps and can
 - ### 2.1 **Build, Trace & Deploy LLM Apps with Azure AI SDK**
     - [**Developing LLMApps with PromptFlow SDK**](./Labs/PART2%20/1-CodeFirstDev/pf-main.md)
         - [**PromptFlow Core Concepts**](./Labs/PART2%20/1-CodeFirstDev/pf-concepts.md)
-        - [**Installing the PromptFlow SDK**](./Labs/PART2%20/1-CodeFirstDev/pf-sdk-setup.md)
+        - [**PromptFlow SDK**](./Labs/PART2%20/1-CodeFirstDev/pf-sdk-setup.md)
         - [**Prompty - A new way to define prompt templates**](./Labs/PART2%20/1-CodeFirstDev/prompty.md)       
-        - [**PromptFlow - VSCode Plugin**](./Labs/PART2%20/1-CodeFirstDev/pf-vscode-plugin.md) - IN-PROGRESS! 
-        - [**Debugging and Tracing with PromptFlow**](./Labs/PART2%20/1-CodeFirstDev/pf-tracing.md) - IN PROGRESS!
-        - [**Your first LLM App with the PromptFlow SDK, Prompty & Tracing**](./code/first-pf-sdk-notebook.ipynb)
-
-
-
+        - [**PromptFlow SDK - Your first LLM App with Prompty & Tracing**](./code/first-pf-sdk-notebook.ipynb)
+        - [**PromptFlow SDK - App with different flow types and tools**](./code/pf-sdk-app-flows-tools.ipynb)
+        - **PromptFlow SDK - Agency with AutoGen & FlexFlows** - IN PROGRESS!
+        - [**PromptFlow SDK - VSCode Plugin**](./Labs/PART2%20/1-CodeFirstDev/pf-vscode-plugin.md) - IN-PROGRESS! 
+        - [**PromptFlow SDK - Debugging and Tracing**](./Labs/PART2%20/1-CodeFirstDev/pf-tracing.md) - IN PROGRESS!
     - [**Use PromptFlow in the Cloud with Azure AI SDK**](https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/overview-what-is-prompt-flow?view=azureml-api-2)
         - **Azure Azure AI SDK - When do we need it?**
         - [**Installing the Azure AI SDK**](./Labs/PART2%20/1-CodeFirstDev/1-EnvSetup.md)
