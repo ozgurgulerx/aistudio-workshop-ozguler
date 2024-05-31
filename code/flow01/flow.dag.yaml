@@ -2,24 +2,17 @@ $schema: https://azuremlschemas.azureedge.net/promptflow/latest/Flow.schema.json
 environment:
   python_requirements_txt: requirements.txt
 inputs:
-  text:
+  theme:
     type: string
 outputs:
-  output_prompt:
+  output_story:
     type: string
-    reference: ${echo_my_prompt.output}
+    reference: ${run_prompty.output}
 nodes:
-- name: hello_prompt
-  type: prompt
-  source:
-    type: code
-    path: hello.jinja2
-  inputs:
-    text: ${inputs.text}
-- name: echo_my_prompt
+- name: run_prompty
   type: python
   source:
     type: code
-    path: hello.py
+    path: prompty_runner.py
   inputs:
-    input1: ${hello_prompt.output}
+    theme: ${inputs.theme}
