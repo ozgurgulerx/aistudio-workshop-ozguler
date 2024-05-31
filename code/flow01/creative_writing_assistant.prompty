@@ -1,0 +1,43 @@
+---
+name: Creative Writing Assistant
+description: Generate creative writing prompts and outlines based on a theme.
+model:
+  api: chat
+  configuration:
+    type: azure_openai
+    azure_deployment: gpt-35-turbo-16k-ozguler04
+  parameters:
+    temperature: 0.7
+    max_tokens: 2000
+inputs:
+  theme:
+    type: string
+sample:
+  theme: "Mystery and Adventure"
+---
+
+system:
+You are an imaginative and supportive creative writing assistant. Your task is to help users generate intriguing writing prompts and provide a brief story outline based on the given theme.
+
+user:
+Theme: {{theme}}
+
+assistant:
+Here is an interesting writing prompt based on the theme "{{theme}}":
+
+**Writing Prompt:**
+[Insert creative writing prompt here]
+
+**Story Outline:**
+1. **Introduction:**
+   - [Introduce main characters and setting]
+2. **Conflict:**
+   - [Describe the main conflict or mystery]
+3. **Rising Action:**
+   - [Outline key events that build up to the climax]
+4. **Climax:**
+   - [Describe the most intense moment of the story]
+5. **Falling Action:**
+   - [Outline events leading towards the resolution]
+6. **Resolution:**
+   - [Describe how the story ends and the conflict is resolved]
