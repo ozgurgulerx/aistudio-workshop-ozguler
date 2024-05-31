@@ -100,14 +100,14 @@ Each lab goes through the implementation of a use-case in detailed steps and can
     - Deploying to AppService 
     - Deploying to AKS - Azure Kubernetes Service
 
-- ### 2.4 Tracing GenAI Apps in Azure AI Studip 
+- ### 2.4 Tracing GenAI Apps in Azure AI Studio 
 
+## PART3 - Evaluate your AI Apps with Azure AI Studio 
+- Lab - Advanced automated Eval 
 
-## PART3 - BUILD ADVANCED CHAT UI's with Azure AI Studio 
+## PART3 - BUILD ADVANCED CHAT App's with Azure AI Studio 
 - Lab3.1 CosmosDB as ChatHistory logging
 
-## PART4 - Evaluate your AI Apps with Azure AI Studio 
-- Lab - Advanced automated Eval 
 
 ## PART5 - ADVANCED DATA INTEGRATION in AI STUDIO 
 - **Lab6 - Advanced RAG Patterns**
