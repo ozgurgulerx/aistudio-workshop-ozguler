@@ -67,9 +67,8 @@ Each lab goes through the implementation of a use-case in detailed steps and can
         - [**PromptFlow SDK**](./Labs/PART2%20/1-CodeFirstDev/pf-sdk-setup.md)
         - [**Prompty - A new way to define prompt templates**](./Labs/PART2%20/1-CodeFirstDev/prompty.md)       
         - [**PromptFlow SDK - Your first LLM App with Prompty & Tracing**](./code/first-pf-sdk-notebook.ipynb)
-        - [**PromptFlow SDK - LLM App with more tools **](./code/pf-sdk-app-flows-tools.ipynb)
-            - Deploy your App 
-            - Add a UI to your PromptFlow App 
+        - [**PromptFlow SDK - LLM App with more tools**](./code/pf-sdk-app-flows-tools.ipynb)
+        .
         - **PromptFlow SDK - Develop Apps with Langchain** - IN PROGRESS!
         - **PromptFlow SDK - Agency with AutoGen & FlexFlows** - IN PROGRESS!
         - **PromptFlow SDK - Evaluation** - IN PROGRESS!        
@@ -81,8 +80,6 @@ Each lab goes through the implementation of a use-case in detailed steps and can
 
     - **Quick-start templates with Azure Developer CLI**
     - **Integration with AI Toolkit & Visual Studio Code**
-
-  
 
 
    
