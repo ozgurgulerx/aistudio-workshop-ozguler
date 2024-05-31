@@ -2,4 +2,5 @@
 # Ignore the pf directory
 .env
 code/.env
+code/dist
 pf/

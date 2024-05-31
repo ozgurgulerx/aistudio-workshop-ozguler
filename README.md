@@ -68,9 +68,12 @@ Each lab goes through the implementation of a use-case in detailed steps and can
         - [**Prompty - A new way to define prompt templates**](./Labs/PART2%20/1-CodeFirstDev/prompty.md)       
         - [**PromptFlow SDK - App1 Your first LLM App with Prompty & Tracing**](./code/first-pf-sdk-notebook.ipynb)
         - [**PromptFlow SDK - App2 Creative writing assistant**](./code/pf-sdk-app-flows-tools.ipynb)
+        - [**Deploy App2 Creative writing assistant to Azure & run with Flask and a UI**](./code/deploy-app2.ipynb) - IN PROGRESS!
         - [**PromptFlow SDK - App3 Customer Service Chat App**](./code/pf-sdk-app-flows-tools.ipynb)
-            - RAG 
+            - RAG with FAISS 
             - Evaluation 
+            - Content Safety Service 
+            - Flask UI
 
         - [**PromptFlow SDK - App4 Financial advice generator  AOAI, Phi3, CosmosDB**](./code/pf-sdk-app-flows-tools.ipynb)  
             - Create a PostgreSQL / CosmosDB instance 
@@ -85,7 +88,8 @@ Each lab goes through the implementation of a use-case in detailed steps and can
 
         - **PromptFlow SDK - Develop Apps with Langchain** - IN PROGRESS!
         - **PromptFlow SDK - Agency with AutoGen & FlexFlows** - IN PROGRESS!
-        - **PromptFlow SDK - Evaluation** - IN PROGRESS!        
+        - **PromptFlow SDK - Evaluation** - IN PROGRESS!      
+        - **PromptFlow - Deploying with GitHub actions - IN PROGRESS!        
     - [**PromptFlow SDK - VSCode Plugin**](./Labs/PART2%20/1-CodeFirstDev/pf-vscode-plugin.md) - IN-PROGRESS! 
     - [**PromptFlow SDK - Debugging and Tracing**](./Labs/PART2%20/1-CodeFirstDev/pf-tracing.md) - IN PROGRESS!
     - [**Use PromptFlow in the Cloud with Azure AI SDK**](https://learn.microsoft.com/en-us/azure/machine-learning/prompt-flow/overview-what-is-prompt-flow?view=azureml-api-2)

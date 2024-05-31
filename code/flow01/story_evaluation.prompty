@@ -8,7 +8,7 @@ model:
     azure_deployment: gpt-35-turbo-16k-ozguler04
   parameters:
     temperature: 0.7
-    max_tokens: 1500
+    max_tokens: 1000
 inputs:
   story:
     type: string
