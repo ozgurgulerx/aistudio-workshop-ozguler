@@ -66,8 +66,8 @@ Each lab goes through the implementation of a use-case in detailed steps and can
         - [**PromptFlow Core Concepts**](./Labs/PART2%20/1-CodeFirstDev/pf-concepts.md)
         - [**PromptFlow SDK**](./Labs/PART2%20/1-CodeFirstDev/pf-sdk-setup.md)
         - [**Prompty - A new way to define prompt templates**](./Labs/PART2%20/1-CodeFirstDev/prompty.md)       
-        - [**PromptFlow SDK - Your first LLM App with Prompty & Tracing**](./code/first-pf-sdk-notebook.ipynb)
-        - [**PromptFlow SDK - LLM App with more tools**](./code/pf-sdk-app-flows-tools.ipynb)
+        - [**PromptFlow SDK - App1 Your first LLM App with Prompty & Tracing**](./code/first-pf-sdk-notebook.ipynb)
+        - [**PromptFlow SDK - App2 Creative writing assistant**](./code/pf-sdk-app-flows-tools.ipynb)
             - Add a UI
             - Deploy your app 
         - **PromptFlow SDK - Develop Apps with Langchain** - IN PROGRESS!
