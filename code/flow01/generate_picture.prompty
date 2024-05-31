@@ -1,0 +1,31 @@
+---
+name: Story Image Generation
+description: Generate an image that is relevant to the story using DALL-E 3.
+model:
+  api: image
+  configuration:
+    type: azure_openai
+    azure_deployment: Dalle3
+  parameters:
+    size: "1024x1024"
+    quality: "standard"
+    n: 1
+inputs:
+  story:
+    type: string
+  scene_description:
+    type: string
+sample:
+  story: "Once upon a time in a land far away, there was a magical forest filled with glowing flowers and towering trees."
+  scene_description: "A magical forest with glowing flowers and towering trees."
+---
+
+system:
+You are an imaginative and skilled artist. Your task is to create a beautiful and detailed image that captures the essence of the provided story.
+
+user:
+Story: {{story}}
+Scene Description: {{scene_description}}
+
+assistant:
+[Generate an image that visually represents the story and the scene description]

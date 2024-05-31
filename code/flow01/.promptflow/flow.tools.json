@@ -24,6 +24,30 @@
       },
       "source": "hello.py",
       "function": "my_python_tool"
+    },
+    "create_story.py": {
+      "type": "python",
+      "inputs": {
+        "theme": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "create_story.py",
+      "function": "create_story"
+    },
+    "evaluate_story.py": {
+      "type": "python",
+      "inputs": {
+        "story": {
+          "type": [
+            "string"
+          ]
+        }
+      },
+      "source": "evaluate_story.py",
+      "function": "evaluate_story"
     }
   }
 }

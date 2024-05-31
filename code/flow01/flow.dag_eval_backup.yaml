@@ -11,9 +11,6 @@ outputs:
   evaluation_result:
     type: string
     reference: ${evaluate_story.output}
-  generated_image:
-    type: string  # Use string to refer to the image path
-    reference: ${generate_image_from_story.output}
 nodes:
 - name: create_story
   type: python
@@ -28,11 +25,4 @@ nodes:
     type: code
     path: evaluate_story.py
   inputs:
-    story: ${create_story.output}
-- name: generate_image_from_story
-  type: python
-  source:
-    type: code
-    path: generate_image_from_story.py
-  inputs:
-    story: ${create_story.output}  # Using the generated story as the prompt for image generation
+      story: ${create_story.output}
