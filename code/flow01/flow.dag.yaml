@@ -5,14 +5,26 @@ inputs:
   theme:
     type: string
 outputs:
-  output_story:
+  generated_story:
     type: string
-    reference: ${run_prompty.output}
+    reference: ${create_story.output}
+  evaluation_result:
+    type: string
+    reference: ${evaluate_story.output}
 nodes:
-- name: run_prompty
+- name: create_story
   type: python
   source:
     type: code
-    path: prompty_runner.py
+    path: create_story.py
   inputs:
     theme: ${inputs.theme}
+- name: evaluate_story
+  type: python
+  source:
+    type: code
+    path: evaluate_story.py
+  inputs:
+    story: ${create_story.output}
+
+

@@ -68,9 +68,21 @@ Each lab goes through the implementation of a use-case in detailed steps and can
         - [**Prompty - A new way to define prompt templates**](./Labs/PART2%20/1-CodeFirstDev/prompty.md)       
         - [**PromptFlow SDK - App1 Your first LLM App with Prompty & Tracing**](./code/first-pf-sdk-notebook.ipynb)
         - [**PromptFlow SDK - App2 Creative writing assistant**](./code/pf-sdk-app-flows-tools.ipynb)
-            - Add a UI
-            - Deploy your app 
-        - [**PromptFlow SDK - App3 Financial advice generator  AOAI, Phi3, CosmosDB**](./code/pf-sdk-app-flows-tools.ipynb)     
+        - [**PromptFlow SDK - App3 Customer Service Chat App**](./code/pf-sdk-app-flows-tools.ipynb)
+            - RAG 
+            - Evaluation 
+
+        - [**PromptFlow SDK - App4 Financial advice generator  AOAI, Phi3, CosmosDB**](./code/pf-sdk-app-flows-tools.ipynb)  
+            - Create a PostgreSQL / CosmosDB instance 
+            - Create a customer database within PostgreSQL 
+            - Create a DB connection in PromptFlow 
+            - Deploy and integrate Phi-3 as an RTE 
+            - Create a text2sql DB enrichment flow 
+            - Create a new summarisation flow with Phi3 
+            - Create a RAG flow with IMF Economic Outlook document 
+            - Integrate three separate flows and build the financial recommender 
+
+
         - **PromptFlow SDK - Develop Apps with Langchain** - IN PROGRESS!
         - **PromptFlow SDK - Agency with AutoGen & FlexFlows** - IN PROGRESS!
         - **PromptFlow SDK - Evaluation** - IN PROGRESS!        

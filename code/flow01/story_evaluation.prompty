@@ -1,0 +1,32 @@
+---
+name: Story Evaluation
+description: Evaluate a story based on key dimensions and suggest improvements.
+model:
+  api: chat
+  configuration:
+    type: azure_openai
+    azure_deployment: gpt-35-turbo-16k-ozguler04
+  parameters:
+    temperature: 0.7
+    max_tokens: 1500
+inputs:
+  story:
+    type: string
+sample:
+  story: "Once upon a time in a land far away..."
+---
+
+system:
+You are an expert story evaluator. Your task is to evaluate the story based on the following dimensions: creativity, coherence, character depth, engagement, and conflict and resolution. Provide scores out of 10 for each dimension and offer detailed suggestions for improvement.
+
+user:
+Story: {{story}}
+
+assistant:
+Creativity: [Provide a score out of 10 and comments]
+Coherence: [Provide a score out of 10 and comments]
+Character Depth: [Provide a score out of 10 and comments]
+Engagement: [Provide a score out of 10 and comments]
+Conflict and Resolution: [Provide a score out of 10 and comments]
+
+Suggestions for Improvement: [Provide detailed suggestions]
