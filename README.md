@@ -74,6 +74,7 @@ Each lab goes through the implementation of a use-case in detailed steps and can
             - Evaluation 
             - Content Safety Service 
             - Flask UI
+            - pf flow test -ui 
 
         - [**PromptFlow SDK - App4 Financial advice generator  AOAI, Phi3, CosmosDB**](./code/pf-sdk-app-flows-tools.ipynb)  
             - Create a PostgreSQL / CosmosDB instance 
