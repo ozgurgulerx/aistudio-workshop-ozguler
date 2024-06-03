@@ -134,9 +134,9 @@ Each lab goes through the implementation of a use-case in detailed steps and can
 - **Lab7 - LLMOPS with GitHub / PromptFlow Integration**
 
 ## PART7 - LLM AGENCY on Azure 
-    - 7.1 Function Calling on PromptFlow 
-    - [7.2 Assistants API](/Labs/Agency/assistants-api.ipynb) 
-    - 7.3 AutoGen 
+- 7.1 Function Calling on PromptFlow 
+- [**7.2 Assistants API**](/Labs/Agency/assistants-api.ipynb) 
+- 7.3 AutoGen 
 ## PART7 - AGENCY FLOWS in AI STUDIO  
 - **Lab8 - AutoGen integration through FlexFlows**
 
