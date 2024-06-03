@@ -122,9 +122,8 @@ Each lab goes through the implementation of a use-case in detailed steps and can
 ## PART3 - Evaluate your AI Apps with Azure AI Studio 
 - Lab - Advanced automated Eval 
 
-## PART3 - BUILD ADVANCED CHAT App's with Azure AI Studio 
+## PART4 - BUILD ADVANCED CHAT App's with Azure AI Studio 
 - Lab3.1 CosmosDB as ChatHistory logging
-
 
 ## PART5 - ADVANCED DATA INTEGRATION in AI STUDIO 
 - **Lab6 - Advanced RAG Patterns**
@@ -134,6 +133,10 @@ Each lab goes through the implementation of a use-case in detailed steps and can
 ## PART6 - AI STUDIO LLMOPS with GITHUB INTEGRATION  
 - **Lab7 - LLMOPS with GitHub / PromptFlow Integration**
 
+## PART7 - LLM AGENCY on Azure 
+    - 7.1 Function Calling on PromptFlow 
+    - [7.2 Assistants API](/Labs/Agency/assistants-api.ipynb) 
+    - 7.3 AutoGen 
 ## PART7 - AGENCY FLOWS in AI STUDIO  
 - **Lab8 - AutoGen integration through FlexFlows**
 
