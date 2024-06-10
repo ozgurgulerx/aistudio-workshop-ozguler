@@ -69,7 +69,7 @@ Each lab goes through the implementation of a use-case in detailed steps and can
         - [**PromptFlow SDK - App1 Your first LLM App with Prompty & Tracing**](./code/first-pf-sdk-notebook.ipynb)
         - [**PromptFlow SDK - App2 Creative writing assistant**](./code/pf-sdk-app-flows-tools.ipynb)
         - [**Deploy App2 Creative writing assistant to Azure & run with Flask and a UI**](./code/deploy-app2.ipynb) - IN PROGRESS!
-        - [**PromptFlow SDK - App3 Customer Service Chat App**](./code/pf-sdk-app-flows-tools.ipynb)
+        - [**PromptFlow SDK - App3 Customer Service RAG Chat App**](./code/pf-sdk-app-flows-tools.ipynb)
             - RAG with FAISS 
             - Evaluation 
             - Content Safety Service 
